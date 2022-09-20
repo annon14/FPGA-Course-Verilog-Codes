@@ -1,0 +1,128 @@
+Pin Freeze File:  version P.20131013
+
+95288XL144 XC95288XL-6-TQ144
+Clk S:PIN30
+IN<0> S:PIN131
+IN<10> S:PIN132
+IN<11> S:PIN126
+IN<12> S:PIN133
+IN<13> S:PIN124
+IN<14> S:PIN134
+IN<15> S:PIN120
+IN<1> S:PIN118
+IN<2> S:PIN136
+IN<3> S:PIN138
+IN<4> S:PIN116
+IN<5> S:PIN115
+IN<6> S:PIN142
+IN<7> S:PIN104
+IN<8> S:PIN11
+IN<9> S:PIN16
+Reset S:PIN143
+Out<0> S:PIN50
+Out<10> S:PIN14
+Out<11> S:PIN81
+Out<12> S:PIN117
+Out<13> S:PIN130
+Out<14> S:PIN10
+Out<15> S:PIN119
+Out<16> S:PIN35
+Out<17> S:PIN4
+Out<18> S:PIN93
+Out<19> S:PIN101
+Out<1> S:PIN28
+Out<20> S:PIN61
+Out<21> S:PIN21
+Out<22> S:PIN22
+Out<23> S:PIN24
+Out<24> S:PIN27
+Out<25> S:PIN135
+Out<26> S:PIN137
+Out<27> S:PIN140
+Out<28> S:PIN110
+Out<29> S:PIN83
+Out<2> S:PIN80
+Out<30> S:PIN86
+Out<31> S:PIN113
+Out<3> S:PIN74
+Out<4> S:PIN56
+Out<5> S:PIN121
+Out<6> S:PIN76
+Out<7> S:PIN125
+Out<8> S:PIN128
+Out<9> S:PIN129
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_1 EXP18_ EXP19_ EXP20_ EXP21_
+		 EXP22_ Out_21_OBUF EXP23_ Out_22_OBUF
+		 EXP24_ EXP25_ EXP26_ Out_23_OBUF
+		 EXP27_ EXP28_ EXP29_ Madd_Out_Mxor_Result<10>__xor0000/Madd_Out_Mxor_Result<10>__xor0000_D
+		 Out_24_OBUF EXP30_
+PARTITION FB2_2 EXP31_ Out_14_OBUF EXP32_
+PARTITION FB2_10 Out_10_OBUF
+
+PARTITION FB3_2 Out_1_OBUF
+
+PARTITION FB4_1 Madd_Out__or0013/Madd_Out__or0013_D2 EXP33_ EXP34_ EXP35_
+		 EXP36_ Out_17_OBUF EXP37_ EXP38_
+		 EXP39_ Madd_Out__or0005/Madd_Out__or0005_D2 EXP40_ EXP41_
+		 EXP42_ EXP43_ Madd_Out__or0011/Madd_Out__or0011_D2 EXP44_
+		 EXP45_ EXP46_
+PARTITION FB5_1 Madd_Out__or0010/Madd_Out__or0010_D2 EXP47_ EXP48_ EXP49_
+		 Out_16_OBUF EXP50_ EXP51_ EXP52_
+		 EXP53_ EXP54_ Madd_Out__or0009/Madd_Out__or0009_D2 EXP55_
+		 Madd_Out__or0003/Madd_Out__or0003_D2 EXP56_ EXP57_ EXP58_
+		 EXP59_ EXP60_
+PARTITION FB6_1 R<9> Out_25_OBUF R<8> R<7>
+		 Out_26_OBUF R<5> R<15> R<13>
+		 R<12> Out_27_OBUF Madd_Out_Mxor_Result<6>__xor0000/Madd_Out_Mxor_Result<6>__xor0000_D Madd_Out_Mxor_Result<5>__xor0000/Madd_Out_Mxor_Result<5>__xor0000_D
+		 Madd_Out_Mxor_Result<14>__xor0000/Madd_Out_Mxor_Result<14>__xor0000_D Madd_Out_Mxor_Result<13>__xor0000/Madd_Out_Mxor_Result<13>__xor0000_D Madd_Out_Mxor_Result<11>__xor0000/Madd_Out_Mxor_Result<11>__xor0000_D R<6>
+		 R<14> R<2>
+PARTITION FB7_15 EXP61_ EXP62_ R<24> EXP63_
+		
+PARTITION FB8_2 Out_13_OBUF
+
+PARTITION FB9_2 Out_0_OBUF
+PARTITION FB9_11 Out_4_OBUF
+
+PARTITION FB10_2 Out_12_OBUF
+PARTITION FB10_5 Out_15_OBUF
+PARTITION FB10_8 Out_5_OBUF Madd_Out_Mxor_Result<9>__xor0000/Madd_Out_Mxor_Result<9>__xor0000_D Madd_Out_Mxor_Result<8>__xor0000/Madd_Out_Mxor_Result<8>__xor0000_D Out_7_OBUF
+		 Madd_Out_Mxor_Result<7>__xor0000/Madd_Out_Mxor_Result<7>__xor0000_D Madd_Out_Mxor_Result<4>__xor0000/Madd_Out_Mxor_Result<4>__xor0000_D Out_8_OBUF Madd_Out_Mxor_Result<3>__xor0000/Madd_Out_Mxor_Result<3>__xor0000_D
+		 Madd_Out_Mxor_Result<15>__xor0000/Madd_Out_Mxor_Result<15>__xor0000_D Out_9_OBUF Madd_Out_Mxor_Result<12>__xor0000/Madd_Out_Mxor_Result<12>__xor0000_D
+PARTITION FB11_1 EXP64_
+PARTITION FB11_3 EXP65_ EXP66_ Out_20_OBUF EXP67_
+		 R<0> EXP68_ EXP69_ R<23>
+		 EXP70_ EXP71_ EXP72_ R<21>
+		 EXP73_ EXP74_ EXP75_ R<22>
+		
+PARTITION FB12_1 EXP76_ Out_28_OBUF R<1> EXP77_
+		 Madd_Out__or0002/Madd_Out__or0002_D2 EXP78_ EXP79_ Out_31_OBUF
+		 EXP80_ Madd_Out__or0006/Madd_Out__or0006_D2 EXP81_ EXP82_
+		 EXP83_ Madd_Out__or0007/Madd_Out__or0007_D2 EXP84_ R<4>
+		 EXP85_ Madd_Out__or0008/Madd_Out__or0008_D2
+PARTITION FB13_7 EXP86_ Out_3_OBUF EXP87_
+PARTITION FB13_13 EXP88_ Out_6_OBUF EXP89_
+
+PARTITION FB14_1 EXP90_
+PARTITION FB14_3 EXP91_ EXP92_ Out_19_OBUF EXP93_
+		 R<10> EXP94_ EXP95_ R<20>
+		 EXP96_ EXP97_ EXP98_ R<18>
+		 EXP99_ EXP100_ EXP101_ R<19>
+		
+PARTITION FB15_1 EXP102_ R<25> Out_2_OBUF EXP103_
+		 R<26> R<27> R<28> Out_11_OBUF
+		 R<29> R<30> Out_29_OBUF R<31>
+		
+PARTITION FB15_14 Out_30_OBUF
+PARTITION FB15_16 EXP104_ EXP105_ R<3>
+PARTITION FB16_1 EXP106_
+PARTITION FB16_3 EXP107_ EXP108_ Out_18_OBUF EXP109_
+		 R<11> EXP110_ EXP111_ R<17>
+		 EXP112_ EXP113_ EXP114_ Madd_Out__or0014/Madd_Out__or0014_D2
+		 EXP115_ EXP116_ EXP117_ R<16>
+		
+

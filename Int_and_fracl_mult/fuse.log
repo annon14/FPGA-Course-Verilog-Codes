@@ -1,0 +1,30 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/ProBook/Desktop/FPGA_Files/ex_4/problem2/Int_and_fracl_mult/int_and_frac_mult_tb_isim_beh.exe -prj C:/Users/ProBook/Desktop/FPGA_Files/ex_4/problem2/Int_and_fracl_mult/int_and_frac_mult_tb_beh.prj work.int_and_frac_mult_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/ProBook/Desktop/FPGA_Files/ex_4/problem2/Int_and_fracl_mult/ipcore_dir/multiplier.v" into library work
+Analyzing Verilog file "C:/Users/ProBook/Desktop/FPGA_Files/ex_4/problem2/Int_and_fracl_mult/Int_and_frac_mult.v" into library work
+Analyzing Verilog file "C:/Users/ProBook/Desktop/FPGA_Files/ex_4/problem2/Int_and_fracl_mult/int_and_frac_mult_tb.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+WARNING:HDLCompiler:687 - "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" Line 5: Illegal redeclaration of module <glbl>.
+Starting static elaboration
+Completed static elaboration
+Compiling module LUT1(INIT=2'b10)
+Compiling module LUT2(INIT=4'b1000)
+Compiling module LUT4(INIT=16'b0111100010001000)
+Compiling module FDRE
+Compiling module MUXCY
+Compiling module XORCY
+Compiling module MULT_AND
+Compiling module GND
+Compiling module multiplier
+Compiling module Int_and_frac_mult
+Compiling module int_and_frac_mult_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 5 sub-compilation(s) to finish...
+Compiled 13 Verilog Units
+Built simulation executable C:/Users/ProBook/Desktop/FPGA_Files/ex_4/problem2/Int_and_fracl_mult/int_and_frac_mult_tb_isim_beh.exe
+Fuse Memory Usage: 27292 KB
+Fuse CPU Usage: 499 ms

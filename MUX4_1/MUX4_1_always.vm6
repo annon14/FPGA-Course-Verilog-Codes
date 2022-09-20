@@ -1,0 +1,122 @@
+NDS Database:  version P.20131013
+
+NDS_INFO | xc9500 | 957244 | XC9572-7-PC44
+
+DEVICE | 9572 | 957244 | 
+
+NETWORK | MUX4_1_always | 0 | 0 | 201342983
+
+INPUT_INSTANCE | 0 | 0 | NULL | s_1_IBUF | MUX4_1_always_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | s<1> | 175 | PI | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | s_1_IBUF | 167 | ? | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | NULL | s_1_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | a_3_IBUF | MUX4_1_always_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | a<3> | 176 | PI | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | a_3_IBUF | 168 | ? | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | NULL | a_3_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | s_0_IBUF | MUX4_1_always_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | s<0> | 177 | PI | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | s_0_IBUF | 169 | ? | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | NULL | s_0_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | a_2_IBUF | MUX4_1_always_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | a<2> | 178 | PI | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | a_2_IBUF | 170 | ? | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | NULL | a_2_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | a_1_IBUF | MUX4_1_always_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | a<1> | 179 | PI | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | a_1_IBUF | 171 | ? | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | a_0_IBUF | MUX4_1_always_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | a<0> | 180 | PI | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | a_0_IBUF | 172 | ? | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | OptxMapped | o_OBUF | MUX4_1_always_COPY_0_COPY_0 | 2155872256 | 6 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | s_1_IBUF | 167 | ? | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | NULL | s_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_3_IBUF | 168 | ? | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | NULL | a_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | s_0_IBUF | 169 | ? | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | NULL | s_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 171 | ? | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_0_IBUF | 172 | ? | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_2_IBUF | 170 | ? | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | NULL | a_2_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | o_OBUF | 173 | ? | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | o_OBUF.Q | o_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | o_OBUF.UIM | 185 | ? | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | o_OBUF.Q | o_OBUF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | o_OBUF.SI | o_OBUF | 0 | 6 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | s_1_IBUF | 167 | ? | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | NULL | s_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_3_IBUF | 168 | ? | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | NULL | a_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | s_0_IBUF | 169 | ? | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | NULL | s_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 171 | ? | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_0_IBUF | 172 | ? | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_2_IBUF | 170 | ? | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | NULL | a_2_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | o_OBUF.D1 | 182 | ? | 0 | 4096 | o_OBUF | NULL | NULL | o_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | o_OBUF.D2 | 183 | ? | 0 | 4096 | o_OBUF | NULL | NULL | o_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_TRUE | s_1_IBUF | IV_TRUE | a_3_IBUF | IV_TRUE | s_0_IBUF
+SPPTERM | 3 | IV_TRUE | s_1_IBUF | IV_FALSE | s_0_IBUF | IV_TRUE | a_2_IBUF
+SPPTERM | 3 | IV_FALSE | s_1_IBUF | IV_TRUE | s_0_IBUF | IV_TRUE | a_1_IBUF
+SPPTERM | 3 | IV_FALSE | s_1_IBUF | IV_FALSE | s_0_IBUF | IV_TRUE | a_0_IBUF
+
+SRFF_INSTANCE | o_OBUF.REG | o_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | o_OBUF.D | 181 | ? | 0 | 0 | o_OBUF | NULL | NULL | o_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | o_OBUF.Q | 184 | ? | 0 | 0 | o_OBUF | NULL | NULL | o_OBUF.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | o | MUX4_1_always_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | o_OBUF | 173 | ? | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | o_OBUF.Q | o_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | o | 174 | PO | 0 | 0 | MUX4_1_always_COPY_0_COPY_0 | NULL | NULL | o | 0 | 6 | OI_OUT
+
+FB_INSTANCE | FOOBAR1_ | MUX4_1_always_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 2 | o_OBUF | 1 | NULL | 0 | o | 1 | 1 | 49152
+FBPIN | 8 | NULL | 0 | a_2_IBUF | 1 | NULL | 0 | 4 | 49152
+
+FB_INSTANCE | FOOBAR2_ | MUX4_1_always_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 8 | NULL | 0 | s_1_IBUF | 1 | NULL | 0 | 38 | 49152
+FBPIN | 15 | NULL | 0 | a_1_IBUF | 1 | NULL | 0 | 43 | 49152
+
+FB_INSTANCE | FOOBAR3_ | MUX4_1_always_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 2 | NULL | 0 | s_0_IBUF | 1 | NULL | 0 | 11 | 49152
+
+FB_INSTANCE | FOOBAR4_ | MUX4_1_always_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 2 | NULL | 0 | a_3_IBUF | 1 | NULL | 0 | 24 | 49152
+FBPIN | 11 | NULL | 0 | a_0_IBUF | 1 | NULL | 0 | 28 | 49152
+
+FB_INSTANCE | INPUTPINS_FOOBAR5_ | MUX4_1_always_COPY_0_COPY_0 | 0 | 0 | 0
+
+BUSINFO | A<3:0> | 4 | 0 | 0 | a<0> | 3 | a<1> | 2 | a<2> | 1 | a<3> | 0
+BUSINFO | S<1:0> | 2 | 0 | 0 | s<0> | 1 | s<1> | 0
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 0 | a<0> | 28 | 2 | a<2> | 4 | 19 | s<1> | 38 | 20 | a<3> | 24 | 21 | s<0> | 11
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 22 | a<1> | 43
+
+FB_IMUX_INDEX | FOOBAR1_ | 77 | -1 | 78 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 73 | 74 | 75 | 76 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
+

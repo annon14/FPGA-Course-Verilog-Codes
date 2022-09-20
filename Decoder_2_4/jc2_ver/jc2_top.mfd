@@ -1,0 +1,146 @@
+MDF Database:  version 1.0
+MDF_INFO | jc2_top | XC9572XL-7-CS48
+MACROCELL | 0 | 7 | q_1
+ATTRIBUTES | 8815362 | 0
+OUTPUTMC | 5 | 0 | 7 | 1 | 10 | 2 | 7 | 1 | 4 | 1 | 9
+INPUTS | 9 | q<1>  | stop  | q<2>  | right  | q<0>  | left  | run  | dir  | EXP6_.EXP
+INPUTMC | 6 | 0 | 7 | 1 | 10 | 2 | 7 | 0 | 16 | 0 | 17 | 0 | 6
+INPUTP | 3 | 72 | 46 | 92
+IMPORTS | 1 | 0 | 6
+EQ | 8 | 
+   q<1>.D = q<1> & !stop
+	# q<2> & !right & stop
+	# q<1> & right & left & !run
+	# q<0> & right & stop & !left
+	# q<2> & !dir & stop & left & run
+;Imported pterms FB1_7
+	# q<0> & right & dir & stop & run;
+   q<1>.CLK = clk;	// GCK
+GLOBALS | 1 | 2 | clk
+
+MACROCELL | 1 | 10 | q_2
+ATTRIBUTES | 8815362 | 0
+OUTPUTMC | 6 | 0 | 7 | 1 | 10 | 2 | 7 | 1 | 4 | 1 | 3 | 2 | 6
+INPUTS | 9 | q<2>  | stop  | q<3>  | right  | q<1>  | left  | run  | dir  | EXP8_.EXP
+INPUTMC | 6 | 1 | 10 | 1 | 4 | 0 | 7 | 0 | 16 | 0 | 17 | 1 | 9
+INPUTP | 3 | 72 | 46 | 92
+IMPORTS | 1 | 1 | 9
+EQ | 8 | 
+   q<2>.D = q<2> & !stop
+	# q<3> & !right & stop
+	# q<1> & right & stop & !left
+	# q<2> & right & left & !run
+	# q<3> & !dir & stop & left & run
+;Imported pterms FB2_10
+	# q<1> & right & dir & stop & run;
+   q<2>.CLK = clk;	// GCK
+GLOBALS | 1 | 2 | clk
+
+MACROCELL | 2 | 7 | q_0
+ATTRIBUTES | 8815362 | 0
+OUTPUTMC | 3 | 0 | 7 | 2 | 7 | 0 | 6
+INPUTS | 9 | q<0>  | stop  | q<1>  | right  | q<2>  | left  | run  | dir  | EXP9_.EXP
+INPUTMC | 6 | 2 | 7 | 0 | 7 | 1 | 10 | 0 | 16 | 0 | 17 | 2 | 6
+INPUTP | 3 | 72 | 46 | 92
+IMPORTS | 1 | 2 | 6
+EQ | 8 | 
+   q<0>.D = q<0> & !stop
+	# q<1> & !right & stop
+	# !q<2> & right & stop & !left
+	# q<0> & right & left & !run
+	# q<1> & !dir & stop & left & run
+;Imported pterms FB3_7
+	# !q<2> & right & dir & stop & run;
+   q<0>.CLK = clk;	// GCK
+GLOBALS | 1 | 2 | clk
+
+MACROCELL | 1 | 4 | q_3
+ATTRIBUTES | 8815362 | 0
+OUTPUTMC | 2 | 1 | 10 | 1 | 4
+INPUTS | 9 | q<3>  | stop  | q<1>  | right  | q<2>  | left  | run  | dir  | EXP7_.EXP
+INPUTMC | 6 | 1 | 4 | 0 | 7 | 1 | 10 | 0 | 16 | 0 | 17 | 1 | 3
+INPUTP | 3 | 72 | 46 | 92
+IMPORTS | 1 | 1 | 3
+EQ | 8 | 
+   q<3>.D = q<3> & !stop
+	# !q<1> & !right & stop
+	# q<2> & right & stop & !left
+	# q<3> & right & left & !run
+	# !q<1> & !dir & stop & left & run
+;Imported pterms FB2_4
+	# q<2> & right & dir & stop & run;
+   q<3>.CLK = clk;	// GCK
+GLOBALS | 1 | 2 | clk
+
+MACROCELL | 0 | 17 | dir
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 9 | 0 | 7 | 1 | 10 | 2 | 7 | 1 | 4 | 0 | 17 | 0 | 6 | 1 | 3 | 1 | 9 | 2 | 6
+INPUTS | 3 | right  | dir  | left
+INPUTMC | 1 | 0 | 17
+INPUTP | 2 | 46 | 92
+EQ | 3 | 
+   dir.D = right & dir
+	# right & !left;
+   dir.CLK = clk;	// GCK
+GLOBALS | 1 | 2 | clk
+
+MACROCELL | 0 | 16 | run
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 9 | 0 | 7 | 1 | 10 | 2 | 7 | 1 | 4 | 0 | 16 | 0 | 6 | 1 | 3 | 1 | 9 | 2 | 6
+INPUTS | 4 | stop  | right  | left  | run
+INPUTMC | 1 | 0 | 16
+INPUTP | 3 | 72 | 46 | 92
+EQ | 3 | 
+   !run.D = !stop
+	# right & left & !run;
+   run.CLK = clk;	// GCK
+GLOBALS | 1 | 2 | clk
+
+MACROCELL | 0 | 6 | EXP6_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 0 | 7
+INPUTS | 5 | q<0>  | right  | dir  | stop  | run
+INPUTMC | 3 | 2 | 7 | 0 | 17 | 0 | 16
+INPUTP | 2 | 46 | 72
+EXPORTS | 1 | 0 | 7
+EQ | 1 | 
+       EXP6_.EXP  =  q<0> & right & dir & stop & run
+
+MACROCELL | 1 | 3 | EXP7_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 1 | 4
+INPUTS | 5 | q<2>  | right  | dir  | stop  | run
+INPUTMC | 3 | 1 | 10 | 0 | 17 | 0 | 16
+INPUTP | 2 | 46 | 72
+EXPORTS | 1 | 1 | 4
+EQ | 1 | 
+       EXP7_.EXP  =  q<2> & right & dir & stop & run
+
+MACROCELL | 1 | 9 | EXP8_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 1 | 10
+INPUTS | 5 | q<1>  | right  | dir  | stop  | run
+INPUTMC | 3 | 0 | 7 | 0 | 17 | 0 | 16
+INPUTP | 2 | 46 | 72
+EXPORTS | 1 | 1 | 10
+EQ | 1 | 
+       EXP8_.EXP  =  q<1> & right & dir & stop & run
+
+MACROCELL | 2 | 6 | EXP9_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 2 | 7
+INPUTS | 5 | q<2>  | right  | dir  | stop  | run
+INPUTMC | 3 | 1 | 10 | 0 | 17 | 0 | 16
+INPUTP | 2 | 46 | 72
+EXPORTS | 1 | 2 | 7
+EQ | 1 | 
+       EXP9_.EXP  =  !q<2> & right & dir & stop & run
+
+PIN | clk | 16384 | 0 | N/A | 24 | 6 | 0 | 7 | 1 | 10 | 2 | 7 | 1 | 4 | 0 | 17 | 0 | 16
+PIN | stop | 64 | 0 | N/A | 72 | 9 | 0 | 7 | 1 | 10 | 2 | 7 | 1 | 4 | 0 | 16 | 0 | 6 | 1 | 3 | 1 | 9 | 2 | 6
+PIN | right | 64 | 0 | N/A | 46 | 10 | 0 | 7 | 1 | 10 | 2 | 7 | 1 | 4 | 0 | 17 | 0 | 16 | 0 | 6 | 1 | 3 | 1 | 9 | 2 | 6
+PIN | left | 64 | 0 | N/A | 92 | 6 | 0 | 7 | 1 | 10 | 2 | 7 | 1 | 4 | 0 | 17 | 0 | 16
+PIN | q<1> | 536871040 | 0 | N/A | 15
+PIN | q<2> | 536871040 | 0 | N/A | 3
+PIN | q<0> | 536871040 | 0 | N/A | 33
+PIN | q<3> | 536871040 | 0 | N/A | 88

@@ -1,0 +1,21 @@
+
+
+
+// Instantiate the module
+controller instance_name (
+    .clk(clk), 
+    .rst_cont(rst_cont), 
+    .inc_counter(inc_counter), 
+    .rst_counter(rst_counter), 
+    .Mult_rst(Mult_rst), 
+    .ld_term(ld_term), 
+    .rst_term(rst_term), 
+    .ld_sum(ld_sum), 
+    .rst_sum(rst_sum), 
+    .start(start), 
+    .counter(counter), 
+    .busy(busy), 
+    .done(done)
+    );
+
+

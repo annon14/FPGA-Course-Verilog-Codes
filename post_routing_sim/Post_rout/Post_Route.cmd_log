@@ -1,0 +1,7 @@
+xst -intstyle ise -filter "D:/Homeworks/FPGA_codes/post_routing_sim/Post_rout/iseconfig/filter.filter" -ifn "D:/Homeworks/FPGA_codes/post_routing_sim/Post_rout/Post_Route.xst" -ofn "D:/Homeworks/FPGA_codes/post_routing_sim/Post_rout/Post_Route.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-pq208-5 Post_Route.ngc Post_Route.ngd  
+map -filter "D:/Homeworks/FPGA_codes/post_routing_sim/Post_rout/iseconfig/filter.filter" -intstyle ise -p xc3s200-pq208-5 -cm area -ir off -pr off -c 100 -o Post_Route_map.ncd Post_Route.ngd Post_Route.pcf 
+par -filter "D:/Homeworks/FPGA_codes/post_routing_sim/Post_rout/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 Post_Route_map.ncd Post_Route.ncd Post_Route.pcf 
+trce -filter D:/Homeworks/FPGA_codes/post_routing_sim/Post_rout/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Post_Route.twx Post_Route.ncd -o Post_Route.twr Post_Route.pcf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f Post_Route.ut Post_Route.ncd 
+netgen -filter "D:/Homeworks/FPGA_codes/post_routing_sim/Post_rout/iseconfig/filter.filter" -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim Post_Route.ngc Post_Route_synthesis.v 

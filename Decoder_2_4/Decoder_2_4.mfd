@@ -1,0 +1,37 @@
+MDF Database:  version 1.0
+MDF_INFO | Decoder_2_4 | XC95288XL-6-TQ144
+MACROCELL | 8 | 1 | O_3
+ATTRIBUTES | 264962 | 0
+INPUTS | 3 | I<1>  | I<0>  | E
+INPUTP | 3 | 237 | 4 | 171
+EQ | 1 | 
+   O<3> = I<1> & I<0> & E;
+
+MACROCELL | 1 | 1 | O_0
+ATTRIBUTES | 264962 | 0
+INPUTS | 3 | I<1>  | I<0>  | E
+INPUTP | 3 | 237 | 4 | 171
+EQ | 1 | 
+   O<0> = !I<1> & !I<0> & E;
+
+MACROCELL | 9 | 1 | O_1
+ATTRIBUTES | 264962 | 0
+INPUTS | 3 | I<1>  | I<0>  | E
+INPUTP | 3 | 237 | 4 | 171
+EQ | 1 | 
+   O<1> = !I<1> & I<0> & E;
+
+MACROCELL | 14 | 1 | O_2
+ATTRIBUTES | 264962 | 0
+INPUTS | 3 | I<1>  | I<0>  | E
+INPUTP | 3 | 237 | 4 | 171
+EQ | 1 | 
+   O<2> = I<1> & !I<0> & E;
+
+PIN | E | 64 | 0 | N/A | 171 | 4 | 8 | 1 | 1 | 1 | 9 | 1 | 14 | 1
+PIN | I<0> | 64 | 0 | N/A | 4 | 4 | 8 | 1 | 1 | 1 | 9 | 1 | 14 | 1
+PIN | I<1> | 64 | 0 | N/A | 237 | 4 | 8 | 1 | 1 | 1 | 9 | 1 | 14 | 1
+PIN | O<3> | 536871040 | 0 | N/A | 97
+PIN | O<0> | 536871040 | 0 | N/A | 20
+PIN | O<1> | 536871040 | 0 | N/A | 216
+PIN | O<2> | 536871040 | 0 | N/A | 151

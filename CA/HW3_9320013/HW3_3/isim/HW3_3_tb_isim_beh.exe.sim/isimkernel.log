@@ -1,0 +1,28 @@
+Command line:
+   HW3_3_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1208
+
+Fri May 12 19:15:37 2017
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 361.779 Meg
+
+ Total Signals          : 22
+ Total Nets             : 22
+ Total Signal Drivers   : 14
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 25
+ Total Traceable Variables  : 46
+ Total Scalar Nets and Variables : 187
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 361.779 Meg
+
+Fri May 12 19:15:50 2017
+

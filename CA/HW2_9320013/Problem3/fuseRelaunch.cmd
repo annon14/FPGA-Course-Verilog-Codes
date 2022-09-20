@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "uni9000_ver" -lib "aim_ver" -lib "cpld_ver" -lib "xilinxcorelib_ver" -o "C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem3/Problem3_tb_isim_beh.exe" -prj "C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem3/Problem3_tb_beh.prj" "work.Problem3_tb" "work.glbl" 

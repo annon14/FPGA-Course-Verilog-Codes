@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj Hilbert_trans -o C:/Users/ProBook/Desktop/FPGA_Files/ex_4/problem3/Hilbert_trans/controller.tfi -lib work C:/Users/ProBook/Desktop/FPGA_Files/ex_4/problem3/Hilbert_trans//controller.v -module controller -template D:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

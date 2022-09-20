@@ -1,0 +1,10 @@
+xst -intstyle ise -filter "C:/Users/ProBook/Desktop/FPGA_Files/ex_4/multiplier/iseconfig/filter.filter" -ifn "C:/Users/ProBook/Desktop/FPGA_Files/ex_4/multiplier/Multiplier.xst" -ofn "C:/Users/ProBook/Desktop/FPGA_Files/ex_4/multiplier/Multiplier.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s200-pq208-5 Multiplier.ngc Multiplier.ngd  
+map -filter "C:/Users/ProBook/Desktop/FPGA_Files/ex_4/multiplier/iseconfig/filter.filter" -intstyle ise -p xc3s200-pq208-5 -cm area -ir off -pr off -c 100 -o Multiplier_map.ncd Multiplier.ngd Multiplier.pcf 
+par -filter "C:/Users/ProBook/Desktop/FPGA_Files/ex_4/multiplier/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 Multiplier_map.ncd Multiplier.ncd Multiplier.pcf 
+trce -filter C:/Users/ProBook/Desktop/FPGA_Files/ex_4/multiplier/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Multiplier.twx Multiplier.ncd -o Multiplier.twr Multiplier.pcf 
+xst -intstyle ise -filter "C:/Users/ProBook/Desktop/FPGA_Files/ex_4/multiplier/iseconfig/filter.filter" -ifn "C:/Users/ProBook/Desktop/FPGA_Files/ex_4/multiplier/Multiplier.xst" -ofn "C:/Users/ProBook/Desktop/FPGA_Files/ex_4/multiplier/Multiplier.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s200-pq208-5 Multiplier.ngc Multiplier.ngd  
+map -filter "C:/Users/ProBook/Desktop/FPGA_Files/ex_4/multiplier/iseconfig/filter.filter" -intstyle ise -p xc3s200-pq208-5 -cm area -ir off -pr off -c 100 -o Multiplier_map.ncd Multiplier.ngd Multiplier.pcf 
+par -filter "C:/Users/ProBook/Desktop/FPGA_Files/ex_4/multiplier/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 Multiplier_map.ncd Multiplier.ncd Multiplier.pcf 
+trce -filter C:/Users/ProBook/Desktop/FPGA_Files/ex_4/multiplier/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Multiplier.twx Multiplier.ncd -o Multiplier.twr Multiplier.pcf 

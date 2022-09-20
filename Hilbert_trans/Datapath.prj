@@ -1,0 +1,3 @@
+verilog work "ipcore_dir/Multiplier.v"
+verilog work "ipcore_dir/LUT.v"
+verilog work "Datapath.v"

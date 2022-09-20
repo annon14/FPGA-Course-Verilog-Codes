@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "D:/Homeworks/FPGA_codes/OV_detect/ov_det.xst" -ofn "D:/Homeworks/FPGA_codes/OV_detect/ov_det.syr" 
+xst -intstyle ise -ifn "D:/Homeworks/FPGA_codes/OV_detect/ov_det.xst" -ofn "D:/Homeworks/FPGA_codes/OV_detect/ov_det.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-pq208-5 ov_det.ngc ov_det.ngd  
+map -intstyle ise -p xc3s200-pq208-5 -cm area -ir off -pr off -c 100 -o ov_det_map.ncd ov_det.ngd ov_det.pcf 
+par -w -intstyle ise -ol high -t 1 ov_det_map.ncd ov_det.ncd ov_det.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ov_det.twx ov_det.ncd -o ov_det.twr ov_det.pcf 
+xst -intstyle ise -ifn "D:/Homeworks/FPGA_codes/OV_detect/ov_det.xst" -ofn "D:/Homeworks/FPGA_codes/OV_detect/ov_det.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim ov_det.ngc ov_det_synthesis.v 

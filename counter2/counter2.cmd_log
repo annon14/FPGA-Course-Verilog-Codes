@@ -1,0 +1,9 @@
+xst -intstyle ise -filter "D:/Homeworks/FPGA_codes/counter2/iseconfig/filter.filter" -ifn "D:/Homeworks/FPGA_codes/counter2/counter2.xst" -ofn "D:/Homeworks/FPGA_codes/counter2/counter2.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 counter2.ngc counter2.ngd  
+map -filter "D:/Homeworks/FPGA_codes/counter2/iseconfig/filter.filter" -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o counter2_map.ncd counter2.ngd counter2.pcf 
+par -filter "D:/Homeworks/FPGA_codes/counter2/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 counter2_map.ncd counter2.ncd counter2.pcf 
+trce -filter D:/Homeworks/FPGA_codes/counter2/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml counter2.twx counter2.ncd -o counter2.twr counter2.pcf 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc counter2.ucf -p xc3s50-pq208-5 counter2.ngc counter2.ngd  
+map -filter "D:/Homeworks/FPGA_codes/counter2/iseconfig/filter.filter" -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o counter2_map.ncd counter2.ngd counter2.pcf 
+par -filter "D:/Homeworks/FPGA_codes/counter2/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 counter2_map.ncd counter2.ncd counter2.pcf 
+trce -filter D:/Homeworks/FPGA_codes/counter2/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml counter2.twx counter2.ncd -o counter2.twr counter2.pcf -ucf counter2.ucf 

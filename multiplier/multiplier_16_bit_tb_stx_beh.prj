@@ -1,0 +1,4 @@
+verilog isim_temp "ipcore_dir/Multiplier_16bit.v"
+verilog isim_temp "Multiplier.v"
+verilog isim_temp "multiplier_16_bit_tb.v"
+verilog isim_temp "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

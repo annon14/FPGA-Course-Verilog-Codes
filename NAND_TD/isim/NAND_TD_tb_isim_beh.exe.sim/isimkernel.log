@@ -1,0 +1,28 @@
+Command line:
+   NAND_TD_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1621
+
+Thu Mar 29 22:40:22 2018
+
+
+ Elaboration Time: 0.234375 sec
+
+ Current Memory Usage: 1339.58 Meg
+
+ Total Signals          : 20
+ Total Nets             : 19
+ Total Signal Drivers   : 13
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 13
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 101
+
+ Total Simulation Time: 0.296875 sec
+
+ Current Memory Usage: 867.66 Meg
+
+Thu Mar 29 22:41:38 2018
+

@@ -1,0 +1,14 @@
+# Output products list for <Multiplier_16bit>
+Multiplier_16bit.asy
+Multiplier_16bit.gise
+Multiplier_16bit.ngc
+Multiplier_16bit.sym
+Multiplier_16bit.v
+Multiplier_16bit.veo
+Multiplier_16bit.xco
+Multiplier_16bit.xise
+Multiplier_16bit\doc\mult_gen_ds255.pdf
+Multiplier_16bit\doc\mult_gen_v11_2_readme.txt
+Multiplier_16bit\doc\mult_gen_v11_2_vinfo.html
+Multiplier_16bit_flist.txt
+Multiplier_16bit_xmdf.tcl

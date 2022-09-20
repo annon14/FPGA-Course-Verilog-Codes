@@ -1,0 +1,8 @@
+xst -intstyle ise -filter "C:/Users/ProBook/Desktop/FPGA_Final/HW1_9320013/Problem3/Problem3/iseconfig/filter.filter" -ifn "C:/Users/ProBook/Desktop/FPGA_Final/HW1_9320013/Problem3/Problem3/First_Code.xst" -ofn "C:/Users/ProBook/Desktop/FPGA_Final/HW1_9320013/Problem3/Problem3/First_Code.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 First_Code.ngc First_Code.ngd  
+cpldfit -filter C:/Users/ProBook/Desktop/FPGA_Final/HW1_9320013/Problem3/Problem3/iseconfig/filter.filter -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper First_Code.ngd 
+XSLTProcess -filter C:/Users/ProBook/Desktop/FPGA_Final/HW1_9320013/Problem3/Problem3/iseconfig/filter.filter First_Code_build.xml 
+tsim -filter C:/Users/ProBook/Desktop/FPGA_Final/HW1_9320013/Problem3/Problem3/iseconfig/filter.filter -intstyle ise First_Code First_Code.nga 
+taengine -intstyle ise -f First_Code -w --format html1 -l First_Code_html/tim/timing_report.htm 
+hprep6 -filter C:/Users/ProBook/Desktop/FPGA_Final/HW1_9320013/Problem3/Problem3/iseconfig/filter.filter -s IEEE1149 -n First_Code -i First_Code 
+XSLTProcess -filter C:/Users/ProBook/Desktop/FPGA_Final/HW1_9320013/Problem3/Problem3/iseconfig/filter.filter First_Code_build.xml 

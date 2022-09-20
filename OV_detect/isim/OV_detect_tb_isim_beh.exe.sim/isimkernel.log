@@ -1,0 +1,28 @@
+Command line:
+   OV_detect_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50226
+
+Tue Apr 24 00:07:37 2018
+
+
+ Elaboration Time: 0.28125 sec
+
+ Current Memory Usage: 1338.01 Meg
+
+ Total Signals          : 23
+ Total Nets             : 22
+ Total Signal Drivers   : 14
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 16
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 105
+
+ Total Simulation Time: 0.328125 sec
+
+ Current Memory Usage: 708.801 Meg
+
+Tue Apr 24 00:12:25 2018
+

@@ -1,0 +1,6 @@
+verilog work "ipcore_dir/RAM.v"
+verilog work "ipcore_dir/MULT_IP_Core.v"
+verilog work "ipcore_dir/FIFI2.v"
+verilog work "Datapath.v"
+verilog work "Controller.v"
+verilog work "FIFI_and_HT.v"

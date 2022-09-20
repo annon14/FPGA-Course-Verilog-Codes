@@ -1,0 +1,2 @@
+verilog work "ipcore_dir/Multiplier_16bit.v"
+verilog work "Multiplier.v"

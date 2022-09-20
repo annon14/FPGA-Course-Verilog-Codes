@@ -1,0 +1,5 @@
+set -tmpdir "D:/Homeworks/FPGA_codes/post_routing_sim/Post_rout/xst/projnav.tmp"
+set -xsthdpdir "D:/Homeworks/FPGA_codes/post_routing_sim/Post_rout/xst"
+elaborate
+-ifn Post_Route.prj
+-ifmt mixed

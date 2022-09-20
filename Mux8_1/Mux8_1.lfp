@@ -1,0 +1,5 @@
+# begin LFP file D:\Homeworks\FPGA_codes\Mux8_1\Mux8_1.lfp
+designfile Mux8_1.v
+parttype xc95288xl-tq144-6
+bus_delimiter 0;
+set_busdelim_onsave 1;

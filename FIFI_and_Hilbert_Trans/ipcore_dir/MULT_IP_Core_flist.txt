@@ -1,0 +1,15 @@
+# Output products list for <MULT_IP_Core>
+MULT_IP_Core.asy
+MULT_IP_Core.gise
+MULT_IP_Core.ngc
+MULT_IP_Core.sym
+MULT_IP_Core.v
+MULT_IP_Core.veo
+MULT_IP_Core.xco
+MULT_IP_Core.xise
+MULT_IP_Core\doc\mult_gen_ds255.pdf
+MULT_IP_Core\doc\mult_gen_v11_2_readme.txt
+MULT_IP_Core\doc\mult_gen_v11_2_vinfo.html
+MULT_IP_Core_flist.txt
+MULT_IP_Core_xmdf.tcl
+_xmsgs\pn_parser.xmsgs

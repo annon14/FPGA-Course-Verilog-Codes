@@ -1,0 +1,31 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/ProBook/Desktop/FPGA_Files/ex_4/problem3/Hilbert_trans/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/ProBook/Desktop/FPGA_Files/ex_4/problem3/Hilbert_trans/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "controller.v" in library work
+ERROR:HDLCompilers:28 - "controller.v" line 50 'START' has not been declared
+Module <controller> compiled
+Analysis of file <"controller.prj"> failed.
+--> 
+
+Total memory usage is 206216 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

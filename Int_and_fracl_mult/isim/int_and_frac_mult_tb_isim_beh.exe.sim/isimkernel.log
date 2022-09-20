@@ -1,0 +1,28 @@
+Command line:
+   int_and_frac_mult_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  2797
+
+Tue Jun 13 10:52:52 2017
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 374.338 Meg
+
+ Total Signals          : 1384
+ Total Nets             : 479
+ Total Signal Drivers   : 455
+ Total Blocks           : 327
+ Total Primitive Blocks : 296
+ Total Processes        : 756
+ Total Traceable Variables  : 441
+ Total Scalar Nets and Variables : 1641
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 374.338 Meg
+
+Tue Jun 13 10:57:31 2017
+

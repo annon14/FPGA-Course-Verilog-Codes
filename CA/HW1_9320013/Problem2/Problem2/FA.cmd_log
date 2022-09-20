@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/sayan/Desktop/HW1/HW1_2/FA.xst" -ofn "C:/Users/sayan/Desktop/HW1/HW1_2/FA.syr" 
+xst -intstyle ise -ifn "C:/Users/sayan/Desktop/HW1/HW1_2/FA.xst" -ofn "C:/Users/sayan/Desktop/HW1/HW1_2/FA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-tq144-5 FA.ngc FA.ngd  
+map -intstyle ise -p xc3s50-tq144-5 -cm area -ir off -pr off -c 100 -o FA_map.ncd FA.ngd FA.pcf 
+par -w -intstyle ise -ol high -t 1 FA_map.ncd FA.ncd FA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml FA.twx FA.ncd -o FA.twr FA.pcf 
+xst -intstyle ise -ifn "C:/Users/sayan/Desktop/HW1/HW1_2/FA.xst" -ofn "C:/Users/sayan/Desktop/HW1/HW1_2/FA.syr" 
+xst -intstyle ise -ifn "C:/Users/sayan/Desktop/HW1/HW1_2/FA.xst" -ofn "C:/Users/sayan/Desktop/HW1/HW1_2/FA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-tq144-5 FA.ngc FA.ngd  
+map -intstyle ise -p xc3s50-tq144-5 -cm area -ir off -pr off -c 100 -o FA_map.ncd FA.ngd FA.pcf 
+par -w -intstyle ise -ol high -t 1 FA_map.ncd FA.ncd FA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml FA.twx FA.ncd -o FA.twr FA.pcf 

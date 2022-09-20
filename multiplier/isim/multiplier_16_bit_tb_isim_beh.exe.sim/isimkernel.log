@@ -1,0 +1,28 @@
+Command line:
+   multiplier_16_bit_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  2234
+
+Mon Jun 12 22:03:23 2017
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 374.338 Meg
+
+ Total Signals          : 1547
+ Total Nets             : 495
+ Total Signal Drivers   : 521
+ Total Blocks           : 351
+ Total Primitive Blocks : 320
+ Total Processes        : 892
+ Total Traceable Variables  : 485
+ Total Scalar Nets and Variables : 1689
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 374.338 Meg
+
+Mon Jun 12 22:08:38 2017
+

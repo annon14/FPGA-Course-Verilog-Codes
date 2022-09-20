@@ -1,0 +1,28 @@
+Command line:
+   ov_det_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1572
+
+Mon Apr 16 12:58:53 2018
+
+
+ Elaboration Time: 0.1875 sec
+
+ Current Memory Usage: 1492.8 Meg
+
+ Total Signals          : 22
+ Total Nets             : 22
+ Total Signal Drivers   : 11
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 12
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 102
+
+ Total Simulation Time: 0.203125 sec
+
+ Current Memory Usage: 1492.8 Meg
+
+Mon Apr 16 12:59:15 2018
+

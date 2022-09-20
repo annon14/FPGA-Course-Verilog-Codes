@@ -1,0 +1,12 @@
+xst -intstyle ise -filter "C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem3/iseconfig/filter.filter" -ifn "C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem3/Problem3.xst" -ofn "C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem3/Problem3.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 Problem3.ngc Problem3.ngd  
+cpldfit -filter C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem3/iseconfig/filter.filter -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Problem3.ngd 
+XSLTProcess -filter C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem3/iseconfig/filter.filter Problem3_build.xml 
+cpldfit -filter C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem3/iseconfig/filter.filter -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Problem3.ngd 
+XSLTProcess -filter C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem3/iseconfig/filter.filter Problem3_build.xml 
+cpldfit -filter C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem3/iseconfig/filter.filter -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Problem3.ngd 
+XSLTProcess -filter C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem3/iseconfig/filter.filter Problem3_build.xml 
+cpldfit -filter C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem3/iseconfig/filter.filter -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Problem3.ngd 
+XSLTProcess -filter C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem3/iseconfig/filter.filter Problem3_build.xml 
+cpldfit -filter C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem3/iseconfig/filter.filter -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Problem3.ngd 
+XSLTProcess -filter C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem3/iseconfig/filter.filter Problem3_build.xml 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/sayan/Desktop/HW1/HW1_2/FA_4bit_tb_isim_beh.exe" -prj "C:/Users/sayan/Desktop/HW1/HW1_2/FA_4bit_tb_beh.prj" "work.FA_4bit_tb" "work.glbl" 

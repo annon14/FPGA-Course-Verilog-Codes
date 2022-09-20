@@ -1,0 +1,1 @@
+xst -intstyle ise -filter "C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem1/iseconfig/filter.filter" -ifn "C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem1/Problem1.xst" -ofn "C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem1/Problem1.syr" 

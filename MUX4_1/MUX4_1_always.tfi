@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+MUX4_1_always instance_name (
+    .a(a), 
+    .s(s), 
+    .o(o)
+    );
+
+

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/Homeworks/FPGA_codes/HW3_2/HW3_2_tb_isim_beh.exe" -prj "D:/Homeworks/FPGA_codes/HW3_2/HW3_2_tb_beh.prj" "work.HW3_2_tb" "work.glbl" 

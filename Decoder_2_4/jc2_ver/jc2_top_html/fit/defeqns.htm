@@ -1,0 +1,67 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+FDCPE_dir: FDCPE port map (dir,dir_D,clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dir_D <= ((right AND dir)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (right AND NOT left));
+</td></tr><tr><td>
+FDCPE_q0: FDCPE port map (q(0),q_D(0),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;q_D(0) <= ((NOT q(2) AND right AND dir AND stop AND run)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (q(0) AND NOT stop)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (q(1) AND NOT right AND stop)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT q(2) AND right AND stop AND NOT left)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (q(0) AND right AND left AND NOT run)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (q(1) AND NOT dir AND stop AND left AND run));
+</td></tr><tr><td>
+FDCPE_q1: FDCPE port map (q(1),q_D(1),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;q_D(1) <= ((q(0) AND right AND dir AND stop AND run)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (q(1) AND NOT stop)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (q(2) AND NOT right AND stop)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (q(1) AND right AND left AND NOT run)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (q(0) AND right AND stop AND NOT left)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (q(2) AND NOT dir AND stop AND left AND run));
+</td></tr><tr><td>
+FDCPE_q2: FDCPE port map (q(2),q_D(2),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;q_D(2) <= ((q(1) AND right AND dir AND stop AND run)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (q(2) AND NOT stop)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (q(3) AND NOT right AND stop)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (q(1) AND right AND stop AND NOT left)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (q(2) AND right AND left AND NOT run)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (q(3) AND NOT dir AND stop AND left AND run));
+</td></tr><tr><td>
+FDCPE_q3: FDCPE port map (q(3),q_D(3),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;q_D(3) <= ((q(2) AND right AND dir AND stop AND run)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (q(3) AND NOT stop)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT q(1) AND NOT right AND stop)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (q(2) AND right AND stop AND NOT left)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (q(3) AND right AND left AND NOT run)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT q(1) AND NOT dir AND stop AND left AND run));
+</td></tr><tr><td>
+FDCPE_run: FDCPE port map (run,run_D,clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;run_D <= ((NOT stop)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (right AND left AND NOT run));
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

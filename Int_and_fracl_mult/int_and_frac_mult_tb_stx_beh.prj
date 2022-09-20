@@ -1,0 +1,4 @@
+verilog isim_temp "ipcore_dir/multiplier.v"
+verilog isim_temp "Int_and_frac_mult.v"
+verilog isim_temp "int_and_frac_mult_tb.v"
+verilog isim_temp "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

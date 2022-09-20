@@ -1,0 +1,124 @@
+Pin Freeze File:  version P.20131013
+
+95288XL144 XC95288XL-6-TQ144
+Clk S:PIN30
+IN<0> S:PIN126
+IN<10> S:PIN138
+IN<11> S:PIN92
+IN<12> S:PIN2
+IN<13> S:PIN6
+IN<14> S:PIN117
+IN<15> S:PIN130
+IN<1> S:PIN69
+IN<2> S:PIN111
+IN<3> S:PIN116
+IN<4> S:PIN110
+IN<5> S:PIN129
+IN<6> S:PIN118
+IN<7> S:PIN132
+IN<8> S:PIN121
+IN<9> S:PIN140
+Reset S:PIN143
+Out<0> S:PIN45
+Out<1> S:PIN87
+Out<10> S:PIN80
+Out<11> S:PIN74
+Out<12> S:PIN133
+Out<13> S:PIN135
+Out<14> S:PIN139
+Out<15> S:PIN10
+Out<16> S:PIN14
+Out<17> S:PIN112
+Out<18> S:PIN61
+Out<19> S:PIN20
+Out<2> S:PIN81
+Out<20> S:PIN93
+Out<21> S:PIN52
+Out<22> S:PIN119
+Out<23> S:PIN100
+Out<24> S:PIN34
+Out<25> S:PIN35
+Out<26> S:PIN39
+Out<27> S:PIN40
+Out<28> S:PIN43
+Out<29> S:PIN102
+Out<3> S:PIN131
+Out<30> S:PIN104
+Out<31> S:PIN106
+Out<4> S:PIN28
+Out<5> S:PIN85
+Out<6> S:PIN7
+Out<7> S:PIN4
+Out<8> S:PIN142
+Out<9> S:PIN137
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_3 EXP18_ EXP19_ Out_19 EXP20_
+		 EXP21_
+
+PARTITION FB2_1 EXP22_ EXP23_ Out_15 EXP24_
+		 EXP25_
+PARTITION FB2_7 EXP26_ EXP27_ EXP28_ Out_16
+		 EXP29_ EXP30_ Out_Madd__add0000__or0010/Out_Madd__add0000__or0010_D2 EXP31_
+		 EXP32_ EXP33_ Out_Madd__add0000__or0006/Out_Madd__add0000__or0006_D2 EXP34_
+		
+PARTITION FB3_2 Out_4
+
+PARTITION FB4_4 EXP35_ EXP36_ Out_7 EXP37_
+		
+PARTITION FB4_13 EXP38_ Out_6 EXP39_
+
+PARTITION FB5_2 Out_24
+PARTITION FB5_5 Out_25
+PARTITION FB5_10 Out_26
+PARTITION FB5_12 Out_27
+PARTITION FB5_15 Out_28
+
+PARTITION FB6_1 EXP40_ Out_13
+PARTITION FB6_4 EXP41_ Out_9
+PARTITION FB6_8 Out_14
+PARTITION FB6_14 Out_8
+
+PARTITION FB7_3 Out_0
+
+PARTITION FB8_1 EXP42_ EXP43_ Out_3 EXP44_
+		 EXP45_
+PARTITION FB8_8 Out_12
+
+PARTITION FB9_3 EXP46_ EXP47_ Out_21 EXP48_
+		 EXP49_
+
+PARTITION FB10_3 EXP50_ EXP51_ Out_22 EXP52_
+		 EXP53_
+
+PARTITION FB11_3 EXP54_ EXP55_ Out_18 EXP56_
+		 EXP57_
+
+PARTITION FB12_1 Out_Madd__add0000__or0014/Out_Madd__add0000__or0014_D2 EXP58_ EXP59_ EXP60_
+		 Out_17 EXP61_ EXP62_ Out_Madd__add0000__or0002/Out_Madd__add0000__or0002_D2
+		 EXP63_ Out_Madd__add0000_Mxor_Result<10>__xor0000/Out_Madd__add0000_Mxor_Result<10>__xor0000_D EXP64_ EXP65_
+		 Out_Madd__add0000__or0012/Out_Madd__add0000__or0012_D2 EXP66_ EXP67_
+PARTITION FB12_17 EXP68_ EXP69_
+PARTITION FB13_1 Out_Madd__add0000_Mxor_Result<8>__xor0000/Out_Madd__add0000_Mxor_Result<8>__xor0000_D
+PARTITION FB13_4 Out_Madd__add0000_Mxor_Result<9>__xor0000/Out_Madd__add0000_Mxor_Result<9>__xor0000_D $OpTx$$OpTx$FX_DC$1_INV$135 EXP70_ EXP71_
+		 Out_11 EXP72_ Out_Madd__add0000_Mxor_Result<7>__xor0000/Out_Madd__add0000_Mxor_Result<7>__xor0000_D Out_Madd__add0000_Mxor_Result<6>__xor0000/Out_Madd__add0000_Mxor_Result<6>__xor0000_D
+		 Out_Madd__add0000_Mxor_Result<5>__xor0000/Out_Madd__add0000_Mxor_Result<5>__xor0000_D Out_Madd__add0000_Mxor_Result<4>__xor0000/Out_Madd__add0000_Mxor_Result<4>__xor0000_D Out_Madd__add0000_Mxor_Result<15>__xor0000/Out_Madd__add0000_Mxor_Result<15>__xor0000_D Out_Madd__add0000_Mxor_Result<14>__xor0000/Out_Madd__add0000_Mxor_Result<14>__xor0000_D
+		 Out_Madd__add0000_Mxor_Result<13>__xor0000/Out_Madd__add0000_Mxor_Result<13>__xor0000_D Out_Madd__add0000_Mxor_Result<12>__xor0000/Out_Madd__add0000_Mxor_Result<12>__xor0000_D Out_Madd__add0000_Mxor_Result<11>__xor0000/Out_Madd__add0000_Mxor_Result<11>__xor0000_D
+PARTITION FB14_3 Out_23
+PARTITION FB14_6 Out_29
+PARTITION FB14_10 Out_30
+PARTITION FB14_14 Out_31
+
+PARTITION FB15_1 EXP73_ EXP74_ Out_10 EXP75_
+		 EXP76_
+PARTITION FB15_7 EXP77_ Out_2 EXP78_
+PARTITION FB15_11 EXP79_ Out_5
+PARTITION FB15_15 Out_1
+
+PARTITION FB16_3 EXP80_ EXP81_ Out_20 EXP82_
+		 EXP83_
+
+

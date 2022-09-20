@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/ProBook/Desktop/FPGA_Files/ex_4/problem4/FIFI_and_Hilbert_Trans/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/ProBook/Desktop/FPGA_Files/ex_4/problem4/FIFI_and_Hilbert_Trans/xst"
+elaborate
+-ifn Controller.prj
+-ifmt mixed

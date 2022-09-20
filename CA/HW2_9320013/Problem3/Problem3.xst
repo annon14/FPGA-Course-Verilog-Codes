@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem3/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem3/xst"
+elaborate
+-ifn Problem3.prj
+-ifmt mixed

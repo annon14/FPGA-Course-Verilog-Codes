@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/Homeworks/FPGA_codes/post_routing_sim/Post_rout/Post_Route_Sim_tb_isim_beh.exe" -prj "D:/Homeworks/FPGA_codes/post_routing_sim/Post_rout/Post_Route_Sim_tb_beh.prj" "work.Post_Route_Sim_tb" "work.glbl" 

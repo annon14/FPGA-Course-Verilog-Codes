@@ -1,0 +1,43 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/ProBook/Desktop/FPGA_Files/ex_4/problem4/FIFI_and_Hilbert_Trans/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/ProBook/Desktop/FPGA_Files/ex_4/problem4/FIFI_and_Hilbert_Trans/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ipcore_dir/RAM.v" in library work
+Compiling verilog file "ipcore_dir/MULT_IP_Core.v" in library work
+Module <RAM> compiled
+Compiling verilog file "ipcore_dir/FIFI2.v" in library work
+Module <MULT_IP_Core> compiled
+Compiling verilog file "Datapath.v" in library work
+Module <FIFI2> compiled
+Module <Datapath> compiled
+No errors in compilation
+Analysis of file <"Datapath.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> 
+
+Total memory usage is 206228 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

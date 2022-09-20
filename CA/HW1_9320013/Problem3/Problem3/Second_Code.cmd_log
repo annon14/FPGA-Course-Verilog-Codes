@@ -1,0 +1,5 @@
+xst -intstyle ise -filter "C:/Users/ProBook/Desktop/FPGA_Final/HW1_9320013/Problem3/Problem3/iseconfig/filter.filter" -ifn "C:/Users/ProBook/Desktop/FPGA_Final/HW1_9320013/Problem3/Problem3/Second_Code.xst" -ofn "C:/Users/ProBook/Desktop/FPGA_Final/HW1_9320013/Problem3/Problem3/Second_Code.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 Second_Code.ngc Second_Code.ngd  
+cpldfit -filter C:/Users/ProBook/Desktop/FPGA_Final/HW1_9320013/Problem3/Problem3/iseconfig/filter.filter -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Second_Code.ngd 
+tsim -filter C:/Users/ProBook/Desktop/FPGA_Final/HW1_9320013/Problem3/Problem3/iseconfig/filter.filter -intstyle ise Second_Code Second_Code.nga 
+hprep6 -filter C:/Users/ProBook/Desktop/FPGA_Final/HW1_9320013/Problem3/Problem3/iseconfig/filter.filter -s IEEE1149 -n Second_Code -i Second_Code 

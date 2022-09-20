@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/sayan/Desktop/HW1/HW1_2/HA.xst" -ofn "C:/Users/sayan/Desktop/HW1/HW1_2/HA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-tq144-5 HA.ngc HA.ngd  
+map -intstyle ise -p xc3s50-tq144-5 -cm area -ir off -pr off -c 100 -o HA_map.ncd HA.ngd HA.pcf 
+par -w -intstyle ise -ol high -t 1 HA_map.ncd HA.ncd HA.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml HA.twx HA.ncd -o HA.twr HA.pcf 

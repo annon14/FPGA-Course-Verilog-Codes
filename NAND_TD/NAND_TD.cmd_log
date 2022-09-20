@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Homeworks/FPGA_codes/NAND_TD/NAND_TD.xst" -ofn "D:/Homeworks/FPGA_codes/NAND_TD/NAND_TD.syr" 

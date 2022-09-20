@@ -1,0 +1,4 @@
+verilog work "ipcore_dir/Multiplier_16bit.v"
+verilog work "Multiplier.v"
+verilog work "multiplier_16_bit_tb.v"
+verilog work "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

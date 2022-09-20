@@ -1,0 +1,33 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/ProBook/Desktop/FPGA_Files/ex_4/problem3/Hilbert_trans/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/ProBook/Desktop/FPGA_Files/ex_4/problem3/Hilbert_trans/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "Hilbert_Trans.v" in library work
+ERROR:HDLCompilers:208 - "Hilbert_Trans.v" line 21 Port reference 'clk' was not declared as input, inout or output
+ERROR:HDLCompilers:208 - "Hilbert_Trans.v" line 21 Port reference 'done' was not declared as input, inout or output
+ERROR:HDLCompilers:208 - "Hilbert_Trans.v" line 21 Port reference 'start' was not declared as input, inout or output
+Module <Hilbert_Trans> compiled
+Analysis of file <"Hilbert_Trans.prj"> failed.
+--> 
+
+Total memory usage is 206264 kilobytes
+
+Number of errors   :    3 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

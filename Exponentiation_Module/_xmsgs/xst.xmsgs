@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;Exponentiation_Module_Datapath.v&quot; line 56 </arg>&apos;<arg fmt="%s" index="2">rstExponent</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;Exponentiation_Module_Datapath.v&quot; line 58 </arg>&apos;<arg fmt="%s" index="2">loadExponent</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;Exponentiation_Module_Datapath.v&quot; line 65 </arg>&apos;<arg fmt="%s" index="2">rstTerm</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;Exponentiation_Module_Datapath.v&quot; line 67 </arg>&apos;<arg fmt="%s" index="2">initTerm</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;Exponentiation_Module_Datapath.v&quot; line 69 </arg>&apos;<arg fmt="%s" index="2">loadTerm</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;Exponentiation_Module_Datapath.v&quot; line 73 </arg>&apos;<arg fmt="%s" index="2">selTableData</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;Exponentiation_Module_Datapath.v&quot; line 75 </arg>&apos;<arg fmt="%s" index="2">selTableData</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="new" ><arg fmt="%s" index="1">&quot;Exponentiation_Module_Datapath.v&quot; line 86 </arg>&apos;<arg fmt="%s" index="2">rstResultRegs</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="new" ><arg fmt="%s" index="1">&quot;Exponentiation_Module_Datapath.v&quot; line 88 </arg>&apos;<arg fmt="%s" index="2">initResultRegs</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="new" ><arg fmt="%s" index="1">&quot;Exponentiation_Module_Datapath.v&quot; line 93 </arg>&apos;<arg fmt="%s" index="2">loadResultRegs</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="new" ><arg fmt="%s" index="1">&quot;Exponentiation_Module_Datapath.v&quot; line 99 </arg>&apos;<arg fmt="%s" index="2">rstCounter</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="new" ><arg fmt="%s" index="1">&quot;Exponentiation_Module_Datapath.v&quot; line 101 </arg>&apos;<arg fmt="%s" index="2">initCounter</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="new" ><arg fmt="%s" index="1">&quot;Exponentiation_Module_Datapath.v&quot; line 103 </arg>&apos;<arg fmt="%s" index="2">incCounter</arg>&apos; has not been declared
+</msg>
+
+</messages>
+

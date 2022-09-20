@@ -1,0 +1,612 @@
+NDS Database:  version P.20131013
+
+NDS_INFO | xc9500xl | 95288XL144 | XC95288XL-6-TQ144
+
+DEVICE | 95288XL | 95288XL144 | 
+
+NETWORK | FD_100 | 0 | 0 | 16391
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | Clk_out_OBUF | FD_100_COPY_0_COPY_0 | 2155877376 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | W | 904 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | W.Q | W | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<0> | 906 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<0>.Q | FD_10_ins2/L<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<1> | 910 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<1>.Q | FD_10_ins2/L<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<2> | 911 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<2>.Q | FD_10_ins2/L<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<3> | 912 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<3>.Q | FD_10_ins2/L<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<4> | 914 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<4>.Q | FD_10_ins2/L<4> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | Clk_out_OBUF$Q | 902 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | Clk_out_OBUF.Q | Clk_out_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | Clk_out_OBUF.SI | Clk_out_OBUF | 0 | 6 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | W | 904 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | W.Q | W | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<0> | 906 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<0>.Q | FD_10_ins2/L<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<1> | 910 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<1>.Q | FD_10_ins2/L<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<2> | 911 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<2>.Q | FD_10_ins2/L<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<3> | 912 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<3>.Q | FD_10_ins2/L<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<4> | 914 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<4>.Q | FD_10_ins2/L<4> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Clk_out_OBUF.D1 | 918 | ? | 0 | 4096 | Clk_out_OBUF | NULL | NULL | Clk_out_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Clk_out_OBUF.D2 | 919 | ? | 0 | 4096 | Clk_out_OBUF | NULL | NULL | Clk_out_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_DC
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | Clk_out_OBUF.CLKF | 920 | ? | 0 | 4096 | Clk_out_OBUF | NULL | NULL | Clk_out_OBUF.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_TRUE | W
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | Clk_out_OBUF.CE | 921 | ? | 0 | 4096 | Clk_out_OBUF | NULL | NULL | Clk_out_OBUF.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 5 | IV_TRUE | FD_10_ins2/L<0> | IV_FALSE | FD_10_ins2/L<1> | IV_TRUE | FD_10_ins2/L<2> | IV_FALSE | FD_10_ins2/L<3> | IV_FALSE | FD_10_ins2/L<4>
+
+SRFF_INSTANCE | Clk_out_OBUF.REG | Clk_out_OBUF | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Clk_out_OBUF.D | 917 | ? | 0 | 0 | Clk_out_OBUF | NULL | NULL | Clk_out_OBUF.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | Clk_out_OBUF.CLKF | 920 | ? | 0 | 4096 | Clk_out_OBUF | NULL | NULL | Clk_out_OBUF.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_TRUE | W
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | Clk_out_OBUF.CE | 921 | ? | 0 | 4096 | Clk_out_OBUF | NULL | NULL | Clk_out_OBUF.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 5 | IV_TRUE | FD_10_ins2/L<0> | IV_FALSE | FD_10_ins2/L<1> | IV_TRUE | FD_10_ins2/L<2> | IV_FALSE | FD_10_ins2/L<3> | IV_FALSE | FD_10_ins2/L<4>
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Clk_out_OBUF.Q | 922 | ? | 0 | 0 | Clk_out_OBUF | NULL | NULL | Clk_out_OBUF.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | Clk_in_IBUF | FD_100_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | Clk_in | 916 | PI | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 3 | 5 | II_FCLK
+NODE | FCLKIO_0 | 903 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | NULL | Clk_in_IBUF | 3 | 5 | II_FCLK
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | W | FD_100_COPY_0_COPY_0 | 2155877376 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<0> | 905 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<0>.Q | FD_10_ins1/L<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<1> | 907 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<1>.Q | FD_10_ins1/L<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<2> | 908 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<2>.Q | FD_10_ins1/L<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<3> | 909 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<3>.Q | FD_10_ins1/L<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<4> | 913 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<4>.Q | FD_10_ins1/L<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 903 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | NULL | Clk_in_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | W | 904 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | W.Q | W | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | W.SI | W | 0 | 5 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<0> | 905 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<0>.Q | FD_10_ins1/L<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<1> | 907 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<1>.Q | FD_10_ins1/L<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<2> | 908 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<2>.Q | FD_10_ins1/L<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<3> | 909 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<3>.Q | FD_10_ins1/L<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<4> | 913 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<4>.Q | FD_10_ins1/L<4> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | W.D1 | 924 | ? | 0 | 4096 | W | NULL | NULL | W.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | W.D2 | 925 | ? | 0 | 4096 | W | NULL | NULL | W.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_DC
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | W.CE | 926 | ? | 0 | 4096 | W | NULL | NULL | W.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 5 | IV_TRUE | FD_10_ins1/L<0> | IV_FALSE | FD_10_ins1/L<1> | IV_TRUE | FD_10_ins1/L<2> | IV_FALSE | FD_10_ins1/L<3> | IV_FALSE | FD_10_ins1/L<4>
+
+SRFF_INSTANCE | W.REG | W | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | W.D | 923 | ? | 0 | 0 | W | NULL | NULL | W.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 903 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | NULL | Clk_in_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | W.CE | 926 | ? | 0 | 4096 | W | NULL | NULL | W.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 5 | IV_TRUE | FD_10_ins1/L<0> | IV_FALSE | FD_10_ins1/L<1> | IV_TRUE | FD_10_ins1/L<2> | IV_FALSE | FD_10_ins1/L<3> | IV_FALSE | FD_10_ins1/L<4>
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | W.Q | 927 | ? | 0 | 0 | W | NULL | NULL | W.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | Inv+PrldHigh+Tff+OptxMapped | FD_10_ins1/L<0> | FD_100_COPY_0_COPY_0 | 2155877120 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<0> | 905 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<0>.Q | FD_10_ins1/L<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<1> | 907 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<1>.Q | FD_10_ins1/L<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<2> | 908 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<2>.Q | FD_10_ins1/L<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<3> | 909 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<3>.Q | FD_10_ins1/L<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<4> | 913 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<4>.Q | FD_10_ins1/L<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 903 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | NULL | Clk_in_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | FD_10_ins1/L<0> | 905 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<0>.Q | FD_10_ins1/L<0> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | FD_10_ins1/L<0>.SI | FD_10_ins1/L<0> | 0 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<0> | 905 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<0>.Q | FD_10_ins1/L<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<1> | 907 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<1>.Q | FD_10_ins1/L<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<2> | 908 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<2>.Q | FD_10_ins1/L<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<3> | 909 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<3>.Q | FD_10_ins1/L<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<4> | 913 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<4>.Q | FD_10_ins1/L<4> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | FD_10_ins1/L<0>.D1 | 929 | ? | 0 | 4096 | FD_10_ins1/L<0> | NULL | NULL | FD_10_ins1/L<0>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | FD_10_ins1/L<0>.D2 | 930 | ? | 0 | 4096 | FD_10_ins1/L<0> | NULL | NULL | FD_10_ins1/L<0>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 5 | IV_TRUE | FD_10_ins1/L<0> | IV_FALSE | FD_10_ins1/L<1> | IV_TRUE | FD_10_ins1/L<2> | IV_FALSE | FD_10_ins1/L<3> | IV_FALSE | FD_10_ins1/L<4>
+
+SRFF_INSTANCE | FD_10_ins1/L<0>.REG | FD_10_ins1/L<0> | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | FD_10_ins1/L<0>.D | 928 | ? | 0 | 0 | FD_10_ins1/L<0> | NULL | NULL | FD_10_ins1/L<0>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 903 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | NULL | Clk_in_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | FD_10_ins1/L<0>.Q | 931 | ? | 0 | 0 | FD_10_ins1/L<0> | NULL | NULL | FD_10_ins1/L<0>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | Inv+PrldHigh+Tff+OptxMapped | FD_10_ins2/L<0> | FD_100_COPY_0_COPY_0 | 2155877120 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<0> | 906 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<0>.Q | FD_10_ins2/L<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<1> | 910 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<1>.Q | FD_10_ins2/L<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<2> | 911 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<2>.Q | FD_10_ins2/L<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<3> | 912 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<3>.Q | FD_10_ins2/L<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<4> | 914 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<4>.Q | FD_10_ins2/L<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | W | 904 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | W.Q | W | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | FD_10_ins2/L<0> | 906 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<0>.Q | FD_10_ins2/L<0> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | FD_10_ins2/L<0>.SI | FD_10_ins2/L<0> | 0 | 6 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<0> | 906 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<0>.Q | FD_10_ins2/L<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<1> | 910 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<1>.Q | FD_10_ins2/L<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<2> | 911 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<2>.Q | FD_10_ins2/L<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<3> | 912 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<3>.Q | FD_10_ins2/L<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<4> | 914 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<4>.Q | FD_10_ins2/L<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | W | 904 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | W.Q | W | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | FD_10_ins2/L<0>.D1 | 933 | ? | 0 | 4096 | FD_10_ins2/L<0> | NULL | NULL | FD_10_ins2/L<0>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | FD_10_ins2/L<0>.D2 | 934 | ? | 0 | 4096 | FD_10_ins2/L<0> | NULL | NULL | FD_10_ins2/L<0>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 5 | IV_TRUE | FD_10_ins2/L<0> | IV_FALSE | FD_10_ins2/L<1> | IV_TRUE | FD_10_ins2/L<2> | IV_FALSE | FD_10_ins2/L<3> | IV_FALSE | FD_10_ins2/L<4>
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | FD_10_ins2/L<0>.CLKF | 935 | ? | 0 | 4096 | FD_10_ins2/L<0> | NULL | NULL | FD_10_ins2/L<0>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_TRUE | W
+
+SRFF_INSTANCE | FD_10_ins2/L<0>.REG | FD_10_ins2/L<0> | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | FD_10_ins2/L<0>.D | 932 | ? | 0 | 0 | FD_10_ins2/L<0> | NULL | NULL | FD_10_ins2/L<0>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | FD_10_ins2/L<0>.CLKF | 935 | ? | 0 | 4096 | FD_10_ins2/L<0> | NULL | NULL | FD_10_ins2/L<0>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_TRUE | W
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | FD_10_ins2/L<0>.Q | 936 | ? | 0 | 0 | FD_10_ins2/L<0> | NULL | NULL | FD_10_ins2/L<0>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | Inv+PrldLow+Tff+OptxMapped | FD_10_ins1/L<1> | FD_100_COPY_0_COPY_0 | 2155877632 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<0> | 905 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<0>.Q | FD_10_ins1/L<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<1> | 907 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<1>.Q | FD_10_ins1/L<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<2> | 908 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<2>.Q | FD_10_ins1/L<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<3> | 909 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<3>.Q | FD_10_ins1/L<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<4> | 913 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<4>.Q | FD_10_ins1/L<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 903 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | NULL | Clk_in_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | FD_10_ins1/L<1> | 907 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<1>.Q | FD_10_ins1/L<1> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | FD_10_ins1/L<1>.SI | FD_10_ins1/L<1> | 0 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<0> | 905 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<0>.Q | FD_10_ins1/L<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<1> | 907 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<1>.Q | FD_10_ins1/L<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<2> | 908 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<2>.Q | FD_10_ins1/L<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<3> | 909 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<3>.Q | FD_10_ins1/L<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<4> | 913 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<4>.Q | FD_10_ins1/L<4> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | FD_10_ins1/L<1>.D1 | 938 | ? | 0 | 4096 | FD_10_ins1/L<1> | NULL | NULL | FD_10_ins1/L<1>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | FD_10_ins1/L<1>.D2 | 939 | ? | 0 | 4096 | FD_10_ins1/L<1> | NULL | NULL | FD_10_ins1/L<1>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_FALSE | FD_10_ins1/L<0>
+SPPTERM | 4 | IV_FALSE | FD_10_ins1/L<1> | IV_TRUE | FD_10_ins1/L<2> | IV_FALSE | FD_10_ins1/L<3> | IV_FALSE | FD_10_ins1/L<4>
+
+SRFF_INSTANCE | FD_10_ins1/L<1>.REG | FD_10_ins1/L<1> | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | FD_10_ins1/L<1>.D | 937 | ? | 0 | 0 | FD_10_ins1/L<1> | NULL | NULL | FD_10_ins1/L<1>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 903 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | NULL | Clk_in_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | FD_10_ins1/L<1>.Q | 940 | ? | 0 | 0 | FD_10_ins1/L<1> | NULL | NULL | FD_10_ins1/L<1>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | FD_10_ins1/L<2> | FD_100_COPY_0_COPY_0 | 2155877376 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<0> | 905 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<0>.Q | FD_10_ins1/L<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<1> | 907 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<1>.Q | FD_10_ins1/L<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<2> | 908 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<2>.Q | FD_10_ins1/L<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<3> | 909 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<3>.Q | FD_10_ins1/L<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<4> | 913 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<4>.Q | FD_10_ins1/L<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 903 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | NULL | Clk_in_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | FD_10_ins1/L<2> | 908 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<2>.Q | FD_10_ins1/L<2> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | FD_10_ins1/L<2>.SI | FD_10_ins1/L<2> | 0 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<0> | 905 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<0>.Q | FD_10_ins1/L<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<1> | 907 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<1>.Q | FD_10_ins1/L<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<2> | 908 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<2>.Q | FD_10_ins1/L<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<3> | 909 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<3>.Q | FD_10_ins1/L<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<4> | 913 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<4>.Q | FD_10_ins1/L<4> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | FD_10_ins1/L<2>.D1 | 942 | ? | 0 | 4096 | FD_10_ins1/L<2> | NULL | NULL | FD_10_ins1/L<2>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | FD_10_ins1/L<2>.D2 | 943 | ? | 0 | 4096 | FD_10_ins1/L<2> | NULL | NULL | FD_10_ins1/L<2>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | FD_10_ins1/L<0> | IV_TRUE | FD_10_ins1/L<1>
+SPPTERM | 4 | IV_TRUE | FD_10_ins1/L<0> | IV_TRUE | FD_10_ins1/L<2> | IV_FALSE | FD_10_ins1/L<3> | IV_FALSE | FD_10_ins1/L<4>
+
+SRFF_INSTANCE | FD_10_ins1/L<2>.REG | FD_10_ins1/L<2> | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | FD_10_ins1/L<2>.D | 941 | ? | 0 | 0 | FD_10_ins1/L<2> | NULL | NULL | FD_10_ins1/L<2>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 903 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | NULL | Clk_in_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | FD_10_ins1/L<2>.Q | 944 | ? | 0 | 0 | FD_10_ins1/L<2> | NULL | NULL | FD_10_ins1/L<2>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | FD_10_ins1/L<3> | FD_100_COPY_0_COPY_0 | 2155877376 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<0> | 905 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<0>.Q | FD_10_ins1/L<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<1> | 907 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<1>.Q | FD_10_ins1/L<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<2> | 908 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<2>.Q | FD_10_ins1/L<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 903 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | NULL | Clk_in_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | FD_10_ins1/L<3> | 909 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<3>.Q | FD_10_ins1/L<3> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | FD_10_ins1/L<3>.SI | FD_10_ins1/L<3> | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<0> | 905 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<0>.Q | FD_10_ins1/L<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<1> | 907 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<1>.Q | FD_10_ins1/L<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<2> | 908 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<2>.Q | FD_10_ins1/L<2> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | FD_10_ins1/L<3>.D1 | 946 | ? | 0 | 4096 | FD_10_ins1/L<3> | NULL | NULL | FD_10_ins1/L<3>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | FD_10_ins1/L<3>.D2 | 947 | ? | 0 | 4096 | FD_10_ins1/L<3> | NULL | NULL | FD_10_ins1/L<3>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_TRUE | FD_10_ins1/L<0> | IV_TRUE | FD_10_ins1/L<1> | IV_TRUE | FD_10_ins1/L<2>
+
+SRFF_INSTANCE | FD_10_ins1/L<3>.REG | FD_10_ins1/L<3> | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | FD_10_ins1/L<3>.D | 945 | ? | 0 | 0 | FD_10_ins1/L<3> | NULL | NULL | FD_10_ins1/L<3>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 903 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | NULL | Clk_in_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | FD_10_ins1/L<3>.Q | 948 | ? | 0 | 0 | FD_10_ins1/L<3> | NULL | NULL | FD_10_ins1/L<3>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | Inv+PrldLow+Tff+OptxMapped | FD_10_ins2/L<1> | FD_100_COPY_0_COPY_0 | 2155877632 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<0> | 906 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<0>.Q | FD_10_ins2/L<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<1> | 910 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<1>.Q | FD_10_ins2/L<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<2> | 911 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<2>.Q | FD_10_ins2/L<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<3> | 912 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<3>.Q | FD_10_ins2/L<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<4> | 914 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<4>.Q | FD_10_ins2/L<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | W | 904 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | W.Q | W | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | FD_10_ins2/L<1> | 910 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<1>.Q | FD_10_ins2/L<1> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | FD_10_ins2/L<1>.SI | FD_10_ins2/L<1> | 0 | 6 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<0> | 906 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<0>.Q | FD_10_ins2/L<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<1> | 910 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<1>.Q | FD_10_ins2/L<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<2> | 911 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<2>.Q | FD_10_ins2/L<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<3> | 912 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<3>.Q | FD_10_ins2/L<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<4> | 914 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<4>.Q | FD_10_ins2/L<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | W | 904 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | W.Q | W | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | FD_10_ins2/L<1>.D1 | 950 | ? | 0 | 4096 | FD_10_ins2/L<1> | NULL | NULL | FD_10_ins2/L<1>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | FD_10_ins2/L<1>.D2 | 951 | ? | 0 | 4096 | FD_10_ins2/L<1> | NULL | NULL | FD_10_ins2/L<1>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_FALSE | FD_10_ins2/L<0>
+SPPTERM | 4 | IV_FALSE | FD_10_ins2/L<1> | IV_TRUE | FD_10_ins2/L<2> | IV_FALSE | FD_10_ins2/L<3> | IV_FALSE | FD_10_ins2/L<4>
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | FD_10_ins2/L<1>.CLKF | 952 | ? | 0 | 4096 | FD_10_ins2/L<1> | NULL | NULL | FD_10_ins2/L<1>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_TRUE | W
+
+SRFF_INSTANCE | FD_10_ins2/L<1>.REG | FD_10_ins2/L<1> | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | FD_10_ins2/L<1>.D | 949 | ? | 0 | 0 | FD_10_ins2/L<1> | NULL | NULL | FD_10_ins2/L<1>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | FD_10_ins2/L<1>.CLKF | 952 | ? | 0 | 4096 | FD_10_ins2/L<1> | NULL | NULL | FD_10_ins2/L<1>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_TRUE | W
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | FD_10_ins2/L<1>.Q | 953 | ? | 0 | 0 | FD_10_ins2/L<1> | NULL | NULL | FD_10_ins2/L<1>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | FD_10_ins2/L<2> | FD_100_COPY_0_COPY_0 | 2155877376 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<0> | 906 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<0>.Q | FD_10_ins2/L<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<1> | 910 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<1>.Q | FD_10_ins2/L<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<2> | 911 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<2>.Q | FD_10_ins2/L<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<3> | 912 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<3>.Q | FD_10_ins2/L<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<4> | 914 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<4>.Q | FD_10_ins2/L<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | W | 904 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | W.Q | W | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | FD_10_ins2/L<2> | 911 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<2>.Q | FD_10_ins2/L<2> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | FD_10_ins2/L<2>.SI | FD_10_ins2/L<2> | 0 | 6 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<0> | 906 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<0>.Q | FD_10_ins2/L<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<1> | 910 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<1>.Q | FD_10_ins2/L<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<2> | 911 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<2>.Q | FD_10_ins2/L<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<3> | 912 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<3>.Q | FD_10_ins2/L<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<4> | 914 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<4>.Q | FD_10_ins2/L<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | W | 904 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | W.Q | W | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | FD_10_ins2/L<2>.D1 | 955 | ? | 0 | 4096 | FD_10_ins2/L<2> | NULL | NULL | FD_10_ins2/L<2>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | FD_10_ins2/L<2>.D2 | 956 | ? | 0 | 4096 | FD_10_ins2/L<2> | NULL | NULL | FD_10_ins2/L<2>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | FD_10_ins2/L<0> | IV_TRUE | FD_10_ins2/L<1>
+SPPTERM | 4 | IV_TRUE | FD_10_ins2/L<0> | IV_TRUE | FD_10_ins2/L<2> | IV_FALSE | FD_10_ins2/L<3> | IV_FALSE | FD_10_ins2/L<4>
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | FD_10_ins2/L<2>.CLKF | 957 | ? | 0 | 4096 | FD_10_ins2/L<2> | NULL | NULL | FD_10_ins2/L<2>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_TRUE | W
+
+SRFF_INSTANCE | FD_10_ins2/L<2>.REG | FD_10_ins2/L<2> | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | FD_10_ins2/L<2>.D | 954 | ? | 0 | 0 | FD_10_ins2/L<2> | NULL | NULL | FD_10_ins2/L<2>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | FD_10_ins2/L<2>.CLKF | 957 | ? | 0 | 4096 | FD_10_ins2/L<2> | NULL | NULL | FD_10_ins2/L<2>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_TRUE | W
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | FD_10_ins2/L<2>.Q | 958 | ? | 0 | 0 | FD_10_ins2/L<2> | NULL | NULL | FD_10_ins2/L<2>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | FD_10_ins2/L<3> | FD_100_COPY_0_COPY_0 | 2155877376 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<0> | 906 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<0>.Q | FD_10_ins2/L<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<1> | 910 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<1>.Q | FD_10_ins2/L<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<2> | 911 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<2>.Q | FD_10_ins2/L<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | W | 904 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | W.Q | W | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | FD_10_ins2/L<3> | 912 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<3>.Q | FD_10_ins2/L<3> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | FD_10_ins2/L<3>.SI | FD_10_ins2/L<3> | 0 | 4 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<0> | 906 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<0>.Q | FD_10_ins2/L<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<1> | 910 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<1>.Q | FD_10_ins2/L<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<2> | 911 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<2>.Q | FD_10_ins2/L<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | W | 904 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | W.Q | W | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | FD_10_ins2/L<3>.D1 | 960 | ? | 0 | 4096 | FD_10_ins2/L<3> | NULL | NULL | FD_10_ins2/L<3>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | FD_10_ins2/L<3>.D2 | 961 | ? | 0 | 4096 | FD_10_ins2/L<3> | NULL | NULL | FD_10_ins2/L<3>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_TRUE | FD_10_ins2/L<0> | IV_TRUE | FD_10_ins2/L<1> | IV_TRUE | FD_10_ins2/L<2>
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | FD_10_ins2/L<3>.CLKF | 962 | ? | 0 | 4096 | FD_10_ins2/L<3> | NULL | NULL | FD_10_ins2/L<3>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_TRUE | W
+
+SRFF_INSTANCE | FD_10_ins2/L<3>.REG | FD_10_ins2/L<3> | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | FD_10_ins2/L<3>.D | 959 | ? | 0 | 0 | FD_10_ins2/L<3> | NULL | NULL | FD_10_ins2/L<3>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | FD_10_ins2/L<3>.CLKF | 962 | ? | 0 | 4096 | FD_10_ins2/L<3> | NULL | NULL | FD_10_ins2/L<3>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_TRUE | W
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | FD_10_ins2/L<3>.Q | 963 | ? | 0 | 0 | FD_10_ins2/L<3> | NULL | NULL | FD_10_ins2/L<3>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | FD_10_ins1/L<4> | FD_100_COPY_0_COPY_0 | 2155877376 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<0> | 905 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<0>.Q | FD_10_ins1/L<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<1> | 907 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<1>.Q | FD_10_ins1/L<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<2> | 908 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<2>.Q | FD_10_ins1/L<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<3> | 909 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<3>.Q | FD_10_ins1/L<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 903 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | NULL | Clk_in_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | FD_10_ins1/L<4> | 913 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<4>.Q | FD_10_ins1/L<4> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | FD_10_ins1/L<4>.SI | FD_10_ins1/L<4> | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<0> | 905 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<0>.Q | FD_10_ins1/L<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<1> | 907 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<1>.Q | FD_10_ins1/L<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<2> | 908 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<2>.Q | FD_10_ins1/L<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins1/L<3> | 909 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins1/L<3>.Q | FD_10_ins1/L<3> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | FD_10_ins1/L<4>.D1 | 965 | ? | 0 | 4096 | FD_10_ins1/L<4> | NULL | NULL | FD_10_ins1/L<4>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | FD_10_ins1/L<4>.D2 | 966 | ? | 0 | 4096 | FD_10_ins1/L<4> | NULL | NULL | FD_10_ins1/L<4>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 4 | IV_TRUE | FD_10_ins1/L<0> | IV_TRUE | FD_10_ins1/L<1> | IV_TRUE | FD_10_ins1/L<2> | IV_TRUE | FD_10_ins1/L<3>
+
+SRFF_INSTANCE | FD_10_ins1/L<4>.REG | FD_10_ins1/L<4> | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | FD_10_ins1/L<4>.D | 964 | ? | 0 | 0 | FD_10_ins1/L<4> | NULL | NULL | FD_10_ins1/L<4>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 903 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | NULL | Clk_in_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | FD_10_ins1/L<4>.Q | 967 | ? | 0 | 0 | FD_10_ins1/L<4> | NULL | NULL | FD_10_ins1/L<4>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | FD_10_ins2/L<4> | FD_100_COPY_0_COPY_0 | 2155877376 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<0> | 906 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<0>.Q | FD_10_ins2/L<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<1> | 910 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<1>.Q | FD_10_ins2/L<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<2> | 911 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<2>.Q | FD_10_ins2/L<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<3> | 912 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<3>.Q | FD_10_ins2/L<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | W | 904 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | W.Q | W | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | FD_10_ins2/L<4> | 914 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<4>.Q | FD_10_ins2/L<4> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | FD_10_ins2/L<4>.SI | FD_10_ins2/L<4> | 0 | 5 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<0> | 906 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<0>.Q | FD_10_ins2/L<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<1> | 910 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<1>.Q | FD_10_ins2/L<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<2> | 911 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<2>.Q | FD_10_ins2/L<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FD_10_ins2/L<3> | 912 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | FD_10_ins2/L<3>.Q | FD_10_ins2/L<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | W | 904 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | W.Q | W | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | FD_10_ins2/L<4>.D1 | 969 | ? | 0 | 4096 | FD_10_ins2/L<4> | NULL | NULL | FD_10_ins2/L<4>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | FD_10_ins2/L<4>.D2 | 970 | ? | 0 | 4096 | FD_10_ins2/L<4> | NULL | NULL | FD_10_ins2/L<4>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 4 | IV_TRUE | FD_10_ins2/L<0> | IV_TRUE | FD_10_ins2/L<1> | IV_TRUE | FD_10_ins2/L<2> | IV_TRUE | FD_10_ins2/L<3>
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | FD_10_ins2/L<4>.CLKF | 971 | ? | 0 | 4096 | FD_10_ins2/L<4> | NULL | NULL | FD_10_ins2/L<4>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_TRUE | W
+
+SRFF_INSTANCE | FD_10_ins2/L<4>.REG | FD_10_ins2/L<4> | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | FD_10_ins2/L<4>.D | 968 | ? | 0 | 0 | FD_10_ins2/L<4> | NULL | NULL | FD_10_ins2/L<4>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | FD_10_ins2/L<4>.CLKF | 971 | ? | 0 | 4096 | FD_10_ins2/L<4> | NULL | NULL | FD_10_ins2/L<4>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_TRUE | W
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | FD_10_ins2/L<4>.Q | 972 | ? | 0 | 0 | FD_10_ins2/L<4> | NULL | NULL | FD_10_ins2/L<4>.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | Clk_out | FD_100_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | Clk_out_OBUF$Q | 902 | ? | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | Clk_out_OBUF.Q | Clk_out_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Clk_out | 915 | PO | 0 | 0 | FD_100_COPY_0_COPY_0 | NULL | NULL | Clk_out | 0 | 6 | OI_OUT
+
+FB_INSTANCE | FOOBAR1_ | FD_100_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 13 | W | 1 | NULL | 0 | NULL | 0
+FBPIN | 14 | FD_10_ins1/L<4> | 1 | NULL | 0 | NULL | 0 | 25 | 49152
+FBPIN | 15 | FD_10_ins1/L<3> | 1 | NULL | 0 | NULL | 0 | 26 | 49152
+FBPIN | 16 | FD_10_ins1/L<0> | 1 | NULL | 0 | NULL | 0
+FBPIN | 17 | FD_10_ins1/L<2> | 1 | NULL | 0 | NULL | 0 | 27 | 49152
+FBPIN | 18 | FD_10_ins1/L<1> | 1 | NULL | 0 | NULL | 0
+
+FB_INSTANCE | FOOBAR2_ | FD_100_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR3_ | FD_100_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 10 | NULL | 0 | Clk_in_IBUF | 1 | NULL | 0 | 30 | 57344
+
+FB_INSTANCE | FOOBAR4_ | FD_100_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR5_ | FD_100_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR6_ | FD_100_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR7_ | FD_100_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR8_ | FD_100_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR9_ | FD_100_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR10_ | FD_100_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 2 | Clk_out_OBUF | 1 | NULL | 0 | Clk_out | 1 | 117 | 49152
+FBPIN | 14 | FD_10_ins2/L<4> | 1 | NULL | 0 | NULL | 0 | 128 | 49152
+FBPIN | 15 | FD_10_ins2/L<3> | 1 | NULL | 0 | NULL | 0
+FBPIN | 16 | FD_10_ins2/L<0> | 1 | NULL | 0 | NULL | 0
+FBPIN | 17 | FD_10_ins2/L<2> | 1 | NULL | 0 | NULL | 0 | 129 | 49152
+FBPIN | 18 | FD_10_ins2/L<1> | 1 | NULL | 0 | NULL | 0
+
+FB_INSTANCE | FOOBAR11_ | FD_100_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR12_ | FD_100_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR13_ | FD_100_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR14_ | FD_100_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR15_ | FD_100_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR16_ | FD_100_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | INPUTPINS_FOOBAR17_ | FD_100_COPY_0_COPY_0 | 0 | 0 | 0
+
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 19 | FD_10_ins1/L<0> | NULL | 20 | FD_10_ins1/L<2> | NULL | 28 | FD_10_ins1/L<1> | NULL | 39 | FD_10_ins1/L<3> | NULL | 42 | FD_10_ins1/L<4> | NULL
+
+FB_IMUX_INDEX | FOOBAR1_ | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 15 | 16 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 17 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 14 | -1 | -1 | 13 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
+
+
+FB_ORDER_OF_INPUTS | FOOBAR10_ | 12 | W | NULL | 13 | FD_10_ins2/L<4> | NULL | 16 | FD_10_ins2/L<2> | NULL | 26 | FD_10_ins2/L<1> | NULL | 28 | FD_10_ins2/L<0> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR10_ | 45 | FD_10_ins2/L<3> | NULL
+
+FB_IMUX_INDEX | FOOBAR10_ | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 12 | 175 | -1 | -1 | 178 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 179 | -1 | 177 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 176 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
+
+
+GLOBAL_FCLK | Clk_in | 0 | 0

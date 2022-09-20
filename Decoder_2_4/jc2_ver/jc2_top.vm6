@@ -1,0 +1,551 @@
+NDS Database:  version P.20131013
+
+NDS_INFO | xc9500xl | 9572XL48 | XC9572XL-7-CS48
+
+DEVICE | 9572XL | 9572XL48 | 
+
+NETWORK | jc2_top | 0 | 0 | 16391
+
+INPUT_INSTANCE | 0 | 0 | NULL | clk_IBUF | jc2_top_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | clk | 556 | PI | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 3 | 5 | II_FCLK
+NODE | clk_IBUF/FCLK | 538 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+
+INPUT_INSTANCE | 0 | 0 | NULL | stop_IBUF | jc2_top_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | stop | 558 | PI | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | stop_IBUF | 549 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | stop_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | dir__and0000 | jc2_top_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | right | 557 | PI | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | dir__and0000 | 547 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | dir__and0000 | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | left_IBUF | jc2_top_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | left | 559 | PI | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | left_IBUF | 550 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | left_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | q_1 | jc2_top_COPY_0_COPY_0 | 2155873280 | 10 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_1 | 540 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_1.Q | q_1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | stop_IBUF | 549 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | stop_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_2 | 542 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_2.Q | q_2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir__and0000 | 547 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | dir__and0000 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_0 | 544 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_0.Q | q_0 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | left_IBUF | 550 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | left_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | run | 551 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | run.Q | run | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir | 548 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | dir.Q | dir | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 538 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP6_.EXP | 585 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | EXP6_.EXP | EXP6_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | q_1$Q | 539 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_1.Q | q_1 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | q_1 | 540 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_1.Q | q_1 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | q_1.SI | q_1 | 0 | 9 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_1 | 540 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_1.Q | q_1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | stop_IBUF | 549 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | stop_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_2 | 542 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_2.Q | q_2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir__and0000 | 547 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | dir__and0000 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_0 | 544 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_0.Q | q_0 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | left_IBUF | 550 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | left_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | run | 551 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | run.Q | run | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir | 548 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | dir.Q | dir | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP6_.EXP | 585 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | EXP6_.EXP | EXP6_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | q_1.D1 | 561 | ? | 0 | 4096 | q_1 | NULL | NULL | q_1.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | q_1.D2 | 562 | ? | 0 | 4096 | q_1 | NULL | NULL | q_1.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | EXP6_.EXP
+SPPTERM | 2 | IV_TRUE | q_1 | IV_FALSE | stop_IBUF
+SPPTERM | 3 | IV_TRUE | q_2 | IV_FALSE | dir__and0000 | IV_TRUE | stop_IBUF
+SPPTERM | 4 | IV_TRUE | q_1 | IV_TRUE | dir__and0000 | IV_TRUE | left_IBUF | IV_FALSE | run
+SPPTERM | 4 | IV_TRUE | q_0 | IV_TRUE | dir__and0000 | IV_TRUE | stop_IBUF | IV_FALSE | left_IBUF
+SPPTERM | 5 | IV_TRUE | q_2 | IV_FALSE | dir | IV_TRUE | stop_IBUF | IV_TRUE | left_IBUF | IV_TRUE | run
+
+SRFF_INSTANCE | q_1.REG | q_1 | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | q_1.D | 560 | ? | 0 | 0 | q_1 | NULL | NULL | q_1.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 538 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | q_1.Q | 563 | ? | 0 | 0 | q_1 | NULL | NULL | q_1.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | q_2 | jc2_top_COPY_0_COPY_0 | 2155873280 | 10 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_2 | 542 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_2.Q | q_2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | stop_IBUF | 549 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | stop_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_3 | 546 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_3.Q | q_3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir__and0000 | 547 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | dir__and0000 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_1 | 540 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_1.Q | q_1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | left_IBUF | 550 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | left_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | run | 551 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | run.Q | run | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir | 548 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | dir.Q | dir | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 538 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP8_.EXP | 589 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | EXP8_.EXP | EXP8_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | q_2$Q | 541 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_2.Q | q_2 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | q_2 | 542 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_2.Q | q_2 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | q_2.SI | q_2 | 0 | 9 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_2 | 542 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_2.Q | q_2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | stop_IBUF | 549 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | stop_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_3 | 546 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_3.Q | q_3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir__and0000 | 547 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | dir__and0000 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_1 | 540 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_1.Q | q_1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | left_IBUF | 550 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | left_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | run | 551 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | run.Q | run | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir | 548 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | dir.Q | dir | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP8_.EXP | 589 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | EXP8_.EXP | EXP8_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | q_2.D1 | 565 | ? | 0 | 4096 | q_2 | NULL | NULL | q_2.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | q_2.D2 | 566 | ? | 0 | 4096 | q_2 | NULL | NULL | q_2.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | EXP8_.EXP
+SPPTERM | 2 | IV_TRUE | q_2 | IV_FALSE | stop_IBUF
+SPPTERM | 3 | IV_TRUE | q_3 | IV_FALSE | dir__and0000 | IV_TRUE | stop_IBUF
+SPPTERM | 4 | IV_TRUE | q_1 | IV_TRUE | dir__and0000 | IV_TRUE | stop_IBUF | IV_FALSE | left_IBUF
+SPPTERM | 4 | IV_TRUE | q_2 | IV_TRUE | dir__and0000 | IV_TRUE | left_IBUF | IV_FALSE | run
+SPPTERM | 5 | IV_TRUE | q_3 | IV_FALSE | dir | IV_TRUE | stop_IBUF | IV_TRUE | left_IBUF | IV_TRUE | run
+
+SRFF_INSTANCE | q_2.REG | q_2 | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | q_2.D | 564 | ? | 0 | 0 | q_2 | NULL | NULL | q_2.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 538 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | q_2.Q | 567 | ? | 0 | 0 | q_2 | NULL | NULL | q_2.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | q_0 | jc2_top_COPY_0_COPY_0 | 2155873280 | 10 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_0 | 544 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_0.Q | q_0 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | stop_IBUF | 549 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | stop_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_1 | 540 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_1.Q | q_1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir__and0000 | 547 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | dir__and0000 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_2 | 542 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_2.Q | q_2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | left_IBUF | 550 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | left_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | run | 551 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | run.Q | run | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir | 548 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | dir.Q | dir | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 538 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP9_.EXP | 591 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | EXP9_.EXP | EXP9_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | q_0$Q | 543 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_0.Q | q_0 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | q_0 | 544 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_0.Q | q_0 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | q_0.SI | q_0 | 0 | 9 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_0 | 544 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_0.Q | q_0 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | stop_IBUF | 549 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | stop_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_1 | 540 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_1.Q | q_1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir__and0000 | 547 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | dir__and0000 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_2 | 542 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_2.Q | q_2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | left_IBUF | 550 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | left_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | run | 551 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | run.Q | run | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir | 548 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | dir.Q | dir | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP9_.EXP | 591 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | EXP9_.EXP | EXP9_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | q_0.D1 | 569 | ? | 0 | 4096 | q_0 | NULL | NULL | q_0.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | q_0.D2 | 570 | ? | 0 | 4096 | q_0 | NULL | NULL | q_0.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | EXP9_.EXP
+SPPTERM | 2 | IV_TRUE | q_0 | IV_FALSE | stop_IBUF
+SPPTERM | 3 | IV_TRUE | q_1 | IV_FALSE | dir__and0000 | IV_TRUE | stop_IBUF
+SPPTERM | 4 | IV_FALSE | q_2 | IV_TRUE | dir__and0000 | IV_TRUE | stop_IBUF | IV_FALSE | left_IBUF
+SPPTERM | 4 | IV_TRUE | q_0 | IV_TRUE | dir__and0000 | IV_TRUE | left_IBUF | IV_FALSE | run
+SPPTERM | 5 | IV_TRUE | q_1 | IV_FALSE | dir | IV_TRUE | stop_IBUF | IV_TRUE | left_IBUF | IV_TRUE | run
+
+SRFF_INSTANCE | q_0.REG | q_0 | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | q_0.D | 568 | ? | 0 | 0 | q_0 | NULL | NULL | q_0.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 538 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | q_0.Q | 571 | ? | 0 | 0 | q_0 | NULL | NULL | q_0.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | q_3 | jc2_top_COPY_0_COPY_0 | 2155873280 | 10 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_3 | 546 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_3.Q | q_3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | stop_IBUF | 549 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | stop_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_1 | 540 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_1.Q | q_1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir__and0000 | 547 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | dir__and0000 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_2 | 542 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_2.Q | q_2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | left_IBUF | 550 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | left_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | run | 551 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | run.Q | run | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir | 548 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | dir.Q | dir | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 538 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP7_.EXP | 588 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | EXP7_.EXP | EXP7_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | q_3$Q | 545 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_3.Q | q_3 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | q_3 | 546 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_3.Q | q_3 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | q_3.SI | q_3 | 0 | 9 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_3 | 546 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_3.Q | q_3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | stop_IBUF | 549 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | stop_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_1 | 540 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_1.Q | q_1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir__and0000 | 547 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | dir__and0000 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_2 | 542 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_2.Q | q_2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | left_IBUF | 550 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | left_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | run | 551 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | run.Q | run | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir | 548 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | dir.Q | dir | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP7_.EXP | 588 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | EXP7_.EXP | EXP7_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | q_3.D1 | 573 | ? | 0 | 4096 | q_3 | NULL | NULL | q_3.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | q_3.D2 | 574 | ? | 0 | 4096 | q_3 | NULL | NULL | q_3.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | EXP7_.EXP
+SPPTERM | 2 | IV_TRUE | q_3 | IV_FALSE | stop_IBUF
+SPPTERM | 3 | IV_FALSE | q_1 | IV_FALSE | dir__and0000 | IV_TRUE | stop_IBUF
+SPPTERM | 4 | IV_TRUE | q_2 | IV_TRUE | dir__and0000 | IV_TRUE | stop_IBUF | IV_FALSE | left_IBUF
+SPPTERM | 4 | IV_TRUE | q_3 | IV_TRUE | dir__and0000 | IV_TRUE | left_IBUF | IV_FALSE | run
+SPPTERM | 5 | IV_FALSE | q_1 | IV_FALSE | dir | IV_TRUE | stop_IBUF | IV_TRUE | left_IBUF | IV_TRUE | run
+
+SRFF_INSTANCE | q_3.REG | q_3 | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | q_3.D | 572 | ? | 0 | 0 | q_3 | NULL | NULL | q_3.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 538 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | q_3.Q | 575 | ? | 0 | 0 | q_3 | NULL | NULL | q_3.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | dir | jc2_top_COPY_0_COPY_0 | 2155873280 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir__and0000 | 547 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | dir__and0000 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir | 548 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | dir.Q | dir | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | left_IBUF | 550 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | left_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 538 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | dir | 548 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | dir.Q | dir | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | dir.SI | dir | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir__and0000 | 547 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | dir__and0000 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir | 548 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | dir.Q | dir | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | left_IBUF | 550 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | left_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | dir.D1 | 577 | ? | 0 | 4096 | dir | NULL | NULL | dir.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | dir.D2 | 578 | ? | 0 | 4096 | dir | NULL | NULL | dir.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | dir__and0000 | IV_TRUE | dir
+SPPTERM | 2 | IV_TRUE | dir__and0000 | IV_FALSE | left_IBUF
+
+SRFF_INSTANCE | dir.REG | dir | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | dir.D | 576 | ? | 0 | 0 | dir | NULL | NULL | dir.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 538 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | dir.Q | 579 | ? | 0 | 0 | dir | NULL | NULL | dir.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | Inv+PrldLow+OptxMapped | run | jc2_top_COPY_0_COPY_0 | 2155873536 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | stop_IBUF | 549 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | stop_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir__and0000 | 547 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | dir__and0000 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | left_IBUF | 550 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | left_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | run | 551 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | run.Q | run | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 538 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | run | 551 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | run.Q | run | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | run.SI | run | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | stop_IBUF | 549 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | stop_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir__and0000 | 547 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | dir__and0000 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | left_IBUF | 550 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | left_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | run | 551 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | run.Q | run | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | run.D1 | 581 | ? | 0 | 4096 | run | NULL | NULL | run.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | run.D2 | 582 | ? | 0 | 4096 | run | NULL | NULL | run.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_FALSE | stop_IBUF
+SPPTERM | 3 | IV_TRUE | dir__and0000 | IV_TRUE | left_IBUF | IV_FALSE | run
+
+SRFF_INSTANCE | run.REG | run | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | run.D | 580 | ? | 0 | 0 | run | NULL | NULL | run.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 538 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | run.Q | 583 | ? | 0 | 0 | run | NULL | NULL | run.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | q<1> | jc2_top_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | q_1$Q | 539 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_1.Q | q_1 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | q<1> | 552 | PO | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | q<1> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | q<2> | jc2_top_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | q_2$Q | 541 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_2.Q | q_2 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | q<2> | 553 | PO | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | q<2> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | q<0> | jc2_top_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | q_0$Q | 543 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_0.Q | q_0 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | q<0> | 554 | PO | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | q<0> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | q<3> | jc2_top_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | q_3$Q | 545 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_3.Q | q_3 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | q<3> | 555 | PO | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | q<3> | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | NULL | EXP6_ | jc2_top_COPY_0_COPY_0 | 2147483648 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_0 | 544 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_0.Q | q_0 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir__and0000 | 547 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | dir__and0000 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir | 548 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | dir.Q | dir | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | stop_IBUF | 549 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | stop_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | run | 551 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | run.Q | run | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP6_.EXP | 585 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | EXP6_.EXP | EXP6_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP6_.SI | EXP6_ | 0 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_0 | 544 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_0.Q | q_0 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir__and0000 | 547 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | dir__and0000 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir | 548 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | dir.Q | dir | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | stop_IBUF | 549 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | stop_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | run | 551 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | run.Q | run | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP6_.EXP | 584 | ? | 0 | 0 | EXP6_ | NULL | NULL | EXP6_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 5 | IV_TRUE | q_0 | IV_TRUE | dir__and0000 | IV_TRUE | dir | IV_TRUE | stop_IBUF | IV_TRUE | run
+
+MACROCELL_INSTANCE | NULL | EXP7_ | jc2_top_COPY_0_COPY_0 | 2147483648 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_2 | 542 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_2.Q | q_2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir__and0000 | 547 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | dir__and0000 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir | 548 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | dir.Q | dir | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | stop_IBUF | 549 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | stop_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | run | 551 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | run.Q | run | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP7_.EXP | 588 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | EXP7_.EXP | EXP7_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP7_.SI | EXP7_ | 0 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_2 | 542 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_2.Q | q_2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir__and0000 | 547 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | dir__and0000 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir | 548 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | dir.Q | dir | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | stop_IBUF | 549 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | stop_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | run | 551 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | run.Q | run | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP7_.EXP | 586 | ? | 0 | 0 | EXP7_ | NULL | NULL | EXP7_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 5 | IV_TRUE | q_2 | IV_TRUE | dir__and0000 | IV_TRUE | dir | IV_TRUE | stop_IBUF | IV_TRUE | run
+
+MACROCELL_INSTANCE | NULL | EXP8_ | jc2_top_COPY_0_COPY_0 | 2147483648 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_1 | 540 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_1.Q | q_1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir__and0000 | 547 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | dir__and0000 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir | 548 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | dir.Q | dir | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | stop_IBUF | 549 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | stop_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | run | 551 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | run.Q | run | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP8_.EXP | 589 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | EXP8_.EXP | EXP8_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP8_.SI | EXP8_ | 0 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_1 | 540 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_1.Q | q_1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir__and0000 | 547 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | dir__and0000 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir | 548 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | dir.Q | dir | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | stop_IBUF | 549 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | stop_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | run | 551 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | run.Q | run | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP8_.EXP | 587 | ? | 0 | 0 | EXP8_ | NULL | NULL | EXP8_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 5 | IV_TRUE | q_1 | IV_TRUE | dir__and0000 | IV_TRUE | dir | IV_TRUE | stop_IBUF | IV_TRUE | run
+
+MACROCELL_INSTANCE | NULL | EXP9_ | jc2_top_COPY_0_COPY_0 | 2147483648 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_2 | 542 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_2.Q | q_2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir__and0000 | 547 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | dir__and0000 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir | 548 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | dir.Q | dir | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | stop_IBUF | 549 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | stop_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | run | 551 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | run.Q | run | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP9_.EXP | 591 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | EXP9_.EXP | EXP9_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP9_.SI | EXP9_ | 0 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | q_2 | 542 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | q_2.Q | q_2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir__and0000 | 547 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | dir__and0000 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | dir | 548 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | dir.Q | dir | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | stop_IBUF | 549 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | NULL | stop_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | run | 551 | ? | 0 | 0 | jc2_top_COPY_0_COPY_0 | NULL | run.Q | run | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP9_.EXP | 590 | ? | 0 | 0 | EXP9_ | NULL | NULL | EXP9_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 5 | IV_FALSE | q_2 | IV_TRUE | dir__and0000 | IV_TRUE | dir | IV_TRUE | stop_IBUF | IV_TRUE | run
+
+FB_INSTANCE | FOOBAR1_ | jc2_top_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 7 | EXP6_ | 1 | NULL | 0 | NULL | 0
+FBPIN | 8 | q_1 | 1 | NULL | 0 | q<1> | 1 | C6 | 49152
+FBPIN | 14 | NULL | 0 | clk_IBUF | 0 | NULL | 0 | A7 | 57344
+FBPIN | 17 | run | 1 | NULL | 0 | NULL | 0 | C5 | 49152
+FBPIN | 18 | dir | 1 | NULL | 0 | NULL | 0
+
+FB_INSTANCE | FOOBAR2_ | jc2_top_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 4 | EXP7_ | 1 | NULL | 0 | NULL | 0
+FBPIN | 5 | q_3 | 1 | NULL | 0 | q<3> | 1 | G5 | 49152
+FBPIN | 9 | NULL | 0 | left_IBUF | 1 | NULL | 0 | G7 | 51200
+FBPIN | 10 | EXP8_ | 1 | NULL | 0 | NULL | 0
+FBPIN | 11 | q_2 | 1 | NULL | 0 | q<2> | 1 | F6 | 53248
+
+FB_INSTANCE | FOOBAR3_ | jc2_top_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 7 | EXP9_ | 1 | NULL | 0 | NULL | 0
+FBPIN | 8 | q_0 | 1 | NULL | 0 | q<0> | 1 | B4 | 49152
+FBPIN | 11 | NULL | 0 | dir__and0000 | 1 | NULL | 0 | B2 | 49152
+
+FB_INSTANCE | FOOBAR4_ | jc2_top_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 14 | NULL | 0 | stop_IBUF | 1 | NULL | 0 | F2 | 49152
+
+FB_INSTANCE | INPUTPINS_FOOBAR5_ | jc2_top_COPY_0_COPY_0 | 0 | 0 | 0
+
+BUSINFO | Q<3:0> | 4 | 0 | 1 | q<0> | 3 | q<1> | 2 | q<2> | 1 | q<3> | 0
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 5 | right | B2 | 7 | q_0 | NULL | 10 | q_2 | NULL | 16 | run | NULL | 17 | stop | F2
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 23 | dir | NULL | 49 | q_1 | NULL | 52 | left | G7
+
+FB_IMUX_INDEX | FOOBAR1_ | -1 | -1 | -1 | -1 | -1 | 131 | -1 | 43 | -1 | -1 | 28 | -1 | -1 | -1 | -1 | -1 | 16 | 89 | -1 | -1 | -1 | -1 | -1 | 17 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 7 | -1 | -1 | 86 | -1
+
+
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 4 | q_3 | NULL | 5 | right | B2 | 10 | q_2 | NULL | 16 | run | NULL | 17 | stop | F2
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 23 | dir | NULL | 49 | q_1 | NULL | 52 | left | G7
+
+FB_IMUX_INDEX | FOOBAR2_ | -1 | -1 | -1 | -1 | 22 | 131 | -1 | -1 | -1 | -1 | 28 | -1 | -1 | -1 | -1 | -1 | 16 | 89 | -1 | -1 | -1 | -1 | -1 | 17 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 7 | -1 | -1 | 86 | -1
+
+
+FB_ORDER_OF_INPUTS | FOOBAR3_ | 5 | right | B2 | 7 | q_0 | NULL | 10 | q_2 | NULL | 16 | run | NULL | 17 | stop | F2
+FB_ORDER_OF_INPUTS | FOOBAR3_ | 23 | dir | NULL | 49 | q_1 | NULL | 52 | left | G7
+
+FB_IMUX_INDEX | FOOBAR3_ | -1 | -1 | -1 | -1 | -1 | 131 | -1 | 43 | -1 | -1 | 28 | -1 | -1 | -1 | -1 | -1 | 16 | 89 | -1 | -1 | -1 | -1 | -1 | 17 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 7 | -1 | -1 | 86 | -1
+
+
+GLOBAL_FCLK | clk | 2 | 2

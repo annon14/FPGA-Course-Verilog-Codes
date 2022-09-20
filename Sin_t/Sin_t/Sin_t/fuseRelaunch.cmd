@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "G:/1-Yazd University/FPGA/2th 95-96/Project/Sin_t/Sin_t/Sin_t_tb_isim_beh.exe" -prj "G:/1-Yazd University/FPGA/2th 95-96/Project/Sin_t/Sin_t/Sin_t_tb_beh.prj" "work.Sin_t_tb" "work.glbl" 

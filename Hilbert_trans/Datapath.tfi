@@ -1,0 +1,21 @@
+
+
+
+// Instantiate the module
+Datapath instance_name (
+    .clk(clk), 
+    .inc_counter(inc_counter), 
+    .rst_counter(rst_counter), 
+    .X_in(X_in), 
+    .H_in(H_in), 
+    .X_we(X_we), 
+    .H_we(H_we), 
+    .Mult_rst(Mult_rst), 
+    .ld_term(ld_term), 
+    .rst_term(rst_term), 
+    .ld_sum(ld_sum), 
+    .rst_sum(rst_sum), 
+    .Y(Y)
+    );
+
+

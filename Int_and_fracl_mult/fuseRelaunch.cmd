@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/ProBook/Desktop/FPGA_Files/ex_4/problem2/Int_and_fracl_mult/int_and_frac_mult_tb_isim_beh.exe" -prj "C:/Users/ProBook/Desktop/FPGA_Files/ex_4/problem2/Int_and_fracl_mult/int_and_frac_mult_tb_beh.prj" "work.int_and_frac_mult_tb" "work.glbl" 

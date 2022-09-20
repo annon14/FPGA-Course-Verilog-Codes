@@ -1,0 +1,7 @@
+xst -intstyle ise -filter "C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem2/iseconfig/filter.filter" -ifn "C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem2/FD_100.xst" -ofn "C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem2/FD_100.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -i -p xc95288xl-TQ144-6 FD_100.ngc FD_100.ngd  
+cpldfit -filter C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem2/iseconfig/filter.filter -intstyle ise -p xc95288xl-6-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper FD_100.ngd 
+XSLTProcess -filter C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem2/iseconfig/filter.filter FD_100_build.xml 
+tsim -filter C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem2/iseconfig/filter.filter -intstyle ise FD_100 FD_100.nga 
+taengine -intstyle ise -f FD_100 -w --format html1 -l FD_100_html/tim/timing_report.htm 
+hprep6 -filter C:/Users/ProBook/Desktop/FPGA_Final/HW2_9320013/Problem2/iseconfig/filter.filter -s IEEE1149 -n FD_100 -i FD_100 

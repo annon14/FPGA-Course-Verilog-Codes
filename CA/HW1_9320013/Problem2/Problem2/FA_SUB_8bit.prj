@@ -1,0 +1,4 @@
+verilog work "HA.v"
+verilog work "FA.v"
+verilog work "FA_4bit.v"
+verilog work "FA_SUB_8bit.v"

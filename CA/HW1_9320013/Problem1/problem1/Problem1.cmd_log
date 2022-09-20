@@ -1,0 +1,5 @@
+xst -intstyle ise -filter "C:/Users/ProBook/Desktop/FPGA_Final/HW1_9320013/problem1/problem1/iseconfig/filter.filter" -ifn "C:/Users/ProBook/Desktop/FPGA_Final/HW1_9320013/problem1/problem1/Problem1.xst" -ofn "C:/Users/ProBook/Desktop/FPGA_Final/HW1_9320013/problem1/problem1/Problem1.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-pq208-5 Problem1.ngc Problem1.ngd  
+map -filter "C:/Users/ProBook/Desktop/FPGA_Final/HW1_9320013/problem1/problem1/iseconfig/filter.filter" -intstyle ise -p xc3s200-pq208-5 -cm area -ir off -pr off -c 100 -o Problem1_map.ncd Problem1.ngd Problem1.pcf 
+par -filter "C:/Users/ProBook/Desktop/FPGA_Final/HW1_9320013/problem1/problem1/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 Problem1_map.ncd Problem1.ncd Problem1.pcf 
+trce -filter C:/Users/ProBook/Desktop/FPGA_Final/HW1_9320013/problem1/problem1/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Problem1.twx Problem1.ncd -o Problem1.twr Problem1.pcf 

@@ -1,0 +1,36 @@
+MDF Database:  version 1.0
+MDF_INFO | demux_4_1 | XC95288XL-6-TQ144
+MACROCELL | 1 | 1 | O_0_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 3 | I  | S<1>  | S<0>
+INPUTP | 3 | 171 | 4 | 237
+EQ | 1 | 
+   O<0> = I & !S<1> & !S<0>;
+
+MACROCELL | 8 | 1 | O_1_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 3 | I  | S<1>  | S<0>
+INPUTP | 3 | 171 | 4 | 237
+EQ | 1 | 
+   O<1> = I & !S<1> & S<0>;
+
+MACROCELL | 9 | 1 | O_3_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 2 | I  | S<1>
+INPUTP | 2 | 171 | 4
+EQ | 1 | 
+   O<3> = I & S<1>;
+
+MACROCELL | 14 | 1 | O_2_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 0
+EQ | 1 | 
+   O<2> = Gnd;
+
+PIN | I | 64 | 0 | N/A | 171 | 3 | 1 | 1 | 8 | 1 | 9 | 1
+PIN | S<1> | 64 | 0 | N/A | 4 | 3 | 1 | 1 | 8 | 1 | 9 | 1
+PIN | S<0> | 64 | 0 | N/A | 237 | 2 | 1 | 1 | 8 | 1
+PIN | O<0> | 536871040 | 0 | N/A | 20
+PIN | O<1> | 536871040 | 0 | N/A | 97
+PIN | O<3> | 536871040 | 0 | N/A | 216
+PIN | O<2> | 536871040 | 0 | N/A | 151

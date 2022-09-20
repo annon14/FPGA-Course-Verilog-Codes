@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "uni9000_ver" -lib "aim_ver" -lib "cpld_ver" -lib "xilinxcorelib_ver" -o "D:/Homeworks/FPGA_codes/Decoder_2_4/jc2_ver/testbench_isim_beh.exe" -prj "D:/Homeworks/FPGA_codes/Decoder_2_4/jc2_ver/testbench_beh.prj" "work.testbench" "work.glbl" 

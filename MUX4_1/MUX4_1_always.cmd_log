@@ -1,0 +1,20 @@
+xst -intstyle ise -filter "D:/Homeworks/FPGA_codes/MUX4_1/iseconfig/filter.filter" -ifn "D:/Homeworks/FPGA_codes/MUX4_1/MUX4_1_always.xst" -ofn "D:/Homeworks/FPGA_codes/MUX4_1/MUX4_1_always.syr" 
+xst -intstyle ise -filter "D:/Homeworks/FPGA_codes/MUX4_1/iseconfig/filter.filter" -ifn "D:/Homeworks/FPGA_codes/MUX4_1/MUX4_1_always.xst" -ofn "D:/Homeworks/FPGA_codes/MUX4_1/MUX4_1_always.syr" 
+xst -intstyle ise -filter "D:/Homeworks/FPGA_codes/MUX4_1/iseconfig/filter.filter" -ifn "D:/Homeworks/FPGA_codes/MUX4_1/MUX4_1_always.xst" -ofn "D:/Homeworks/FPGA_codes/MUX4_1/MUX4_1_always.syr" 
+xst -intstyle ise -filter "D:/Homeworks/FPGA_codes/MUX4_1/iseconfig/filter.filter" -ifn "D:/Homeworks/FPGA_codes/MUX4_1/MUX4_1_always.xst" -ofn "D:/Homeworks/FPGA_codes/MUX4_1/MUX4_1_always.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -i -p xc9572-PC44-7 MUX4_1_always.ngc MUX4_1_always.ngd  
+cpldfit -filter D:/Homeworks/FPGA_codes/MUX4_1/iseconfig/filter.filter -intstyle ise -p xc9572-7-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk MUX4_1_always.ngd 
+XSLTProcess -filter D:/Homeworks/FPGA_codes/MUX4_1/iseconfig/filter.filter MUX4_1_always_build.xml 
+tsim -filter D:/Homeworks/FPGA_codes/MUX4_1/iseconfig/filter.filter -intstyle ise MUX4_1_always MUX4_1_always.nga 
+taengine -intstyle ise -f MUX4_1_always -w --format html1 -l MUX4_1_always_html/tim/timing_report.htm 
+hprep6 -filter D:/Homeworks/FPGA_codes/MUX4_1/iseconfig/filter.filter -s IEEE1149 -n MUX4_1_always -i MUX4_1_always 
+vhdtdtfi -lib work D:/Homeworks/FPGA_codes/MUX4_1/MUX4_1_always.v -lang verilog -prj MUX4_1 -o MUX4_1_always.spl -module MUX4_1_always -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family xc9500 MUX4_1_always.spl D:/Homeworks/FPGA_codes/MUX4_1/MUX4_1_always.sym 
+vhdtdtfi -lang verilog -prj MUX4_1 -o D:/Homeworks/FPGA_codes/MUX4_1/MUX4_1_always.tfi -lib work D:/Homeworks/FPGA_codes/MUX4_1//MUX4_1_always.v -module MUX4_1_always -template D:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -filter "D:/Homeworks/FPGA_codes/MUX4_1/iseconfig/filter.filter" -ifn "D:/Homeworks/FPGA_codes/MUX4_1/MUX4_1_always.xst" -ofn "D:/Homeworks/FPGA_codes/MUX4_1/MUX4_1_always.syr" 
+xst -intstyle ise -filter "D:/Homeworks/FPGA_codes/MUX4_1/iseconfig/filter.filter" -ifn "D:/Homeworks/FPGA_codes/MUX4_1/MUX4_1_always.xst" -ofn "D:/Homeworks/FPGA_codes/MUX4_1/MUX4_1_always.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -i -p xc9572-PC44-7 MUX4_1_always.ngc MUX4_1_always.ngd  
+cpldfit -filter D:/Homeworks/FPGA_codes/MUX4_1/iseconfig/filter.filter -intstyle ise -p xc9572-7-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk MUX4_1_always.ngd 
+XSLTProcess -filter D:/Homeworks/FPGA_codes/MUX4_1/iseconfig/filter.filter MUX4_1_always_build.xml 
+tsim -filter D:/Homeworks/FPGA_codes/MUX4_1/iseconfig/filter.filter -intstyle ise MUX4_1_always MUX4_1_always.nga 
+hprep6 -filter D:/Homeworks/FPGA_codes/MUX4_1/iseconfig/filter.filter -s IEEE1149 -n MUX4_1_always -i MUX4_1_always 

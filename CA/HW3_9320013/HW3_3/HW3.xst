@@ -1,0 +1,5 @@
+set -tmpdir "D:/Homeworks/FPGA_codes/HW3_3/xst/projnav.tmp"
+set -xsthdpdir "D:/Homeworks/FPGA_codes/HW3_3/xst"
+elaborate
+-ifn HW3.prj
+-ifmt mixed

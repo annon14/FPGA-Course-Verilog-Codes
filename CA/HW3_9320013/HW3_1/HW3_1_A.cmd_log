@@ -1,0 +1,12 @@
+xst -intstyle ise -filter "D:/Homeworks/FPGA_codes/HW3_1_A/iseconfig/filter.filter" -ifn "D:/Homeworks/FPGA_codes/HW3_1_A/HW3_1_A.xst" -ofn "D:/Homeworks/FPGA_codes/HW3_1_A/HW3_1_A.syr" 
+xst -intstyle ise -filter "D:/Homeworks/FPGA_codes/HW3_1_A/iseconfig/filter.filter" -ifn "D:/Homeworks/FPGA_codes/HW3_1_A/HW3_1_A.xst" -ofn "D:/Homeworks/FPGA_codes/HW3_1_A/HW3_1_A.syr" 
+xst -intstyle ise -filter "D:/Homeworks/FPGA_codes/HW3_1_A/iseconfig/filter.filter" -ifn "D:/Homeworks/FPGA_codes/HW3_1_A/HW3_1_A.xst" -ofn "D:/Homeworks/FPGA_codes/HW3_1_A/HW3_1_A.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 HW3_1_A.ngc HW3_1_A.ngd  
+map -filter "D:/Homeworks/FPGA_codes/HW3_1_A/iseconfig/filter.filter" -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o HW3_1_A_map.ncd HW3_1_A.ngd HW3_1_A.pcf 
+par -filter "D:/Homeworks/FPGA_codes/HW3_1_A/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 HW3_1_A_map.ncd HW3_1_A.ncd HW3_1_A.pcf 
+trce -filter D:/Homeworks/FPGA_codes/HW3_1_A/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml HW3_1_A.twx HW3_1_A.ncd -o HW3_1_A.twr HW3_1_A.pcf 
+xst -intstyle ise -filter "D:/Homeworks/FPGA_codes/HW3_1_A/iseconfig/filter.filter" -ifn "D:/Homeworks/FPGA_codes/HW3_1_A/HW3_1_A.xst" -ofn "D:/Homeworks/FPGA_codes/HW3_1_A/HW3_1_A.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 HW3_1_A.ngc HW3_1_A.ngd  
+map -filter "D:/Homeworks/FPGA_codes/HW3_1_A/iseconfig/filter.filter" -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o HW3_1_A_map.ncd HW3_1_A.ngd HW3_1_A.pcf 
+par -filter "D:/Homeworks/FPGA_codes/HW3_1_A/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 HW3_1_A_map.ncd HW3_1_A.ncd HW3_1_A.pcf 
+trce -filter D:/Homeworks/FPGA_codes/HW3_1_A/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml HW3_1_A.twx HW3_1_A.ncd -o HW3_1_A.twr HW3_1_A.pcf 

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="MUX4_1.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="MUX4_1_always.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="MUX4_1_always.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="MUX4_1_always.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="MUX4_1_always.jed"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="MUX4_1_always.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="MUX4_1_always.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="MUX4_1_always.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="MUX4_1_always.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="MUX4_1_always.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="MUX4_1_always.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="MUX4_1_always.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="MUX4_1_always.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MUX4_1_always.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="MUX4_1_always.rpt"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="MUX4_1_always.spl"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="MUX4_1_always.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="MUX4_1_always.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="MUX4_1_always.syr"/>
+    <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="MUX4_1_always.tfi"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="MUX4_1_always.tim"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="MUX4_1_always.tspec"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="MUX4_1_always.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="MUX4_1_always.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="MUX4_1_always.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="MUX4_1_always_build.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="MUX4_1_always_html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="MUX4_1_always_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="MUX4_1_always_pad.csv"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="MUX4_1_always_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1488266251" xil_pn:name="TRANEXT_compLibraries_CPLD" xil_pn:prop_ck="-84089622777923343" xil_pn:start_ts="1488266251">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1488266272" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1488266272">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1488266730" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="5541584196047832301" xil_pn:start_ts="1488266730">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1488267168" xil_pn:in_ck="7706195599732579122" xil_pn:name="TRANEXT_xstsynthesize_CPLD" xil_pn:prop_ck="-969756066672105400" xil_pn:start_ts="1488267160">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="MUX4_1_always.lso"/>
+      <outfile xil_pn:name="MUX4_1_always.ngc"/>
+      <outfile xil_pn:name="MUX4_1_always.ngr"/>
+      <outfile xil_pn:name="MUX4_1_always.prj"/>
+      <outfile xil_pn:name="MUX4_1_always.stx"/>
+      <outfile xil_pn:name="MUX4_1_always.syr"/>
+      <outfile xil_pn:name="MUX4_1_always.xst"/>
+      <outfile xil_pn:name="MUX4_1_always_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1488266884" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-4629998834726951920" xil_pn:start_ts="1488266884">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1488267175" xil_pn:in_ck="-1221545429067326636" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="5271358926975141487" xil_pn:start_ts="1488267168">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="MUX4_1_always.bld"/>
+      <outfile xil_pn:name="MUX4_1_always.ngd"/>
+      <outfile xil_pn:name="MUX4_1_always_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1488267183" xil_pn:in_ck="-1221545429067326635" xil_pn:name="TRANEXT_vm6File_xc9500" xil_pn:prop_ck="-3366720336364411564" xil_pn:start_ts="1488267175">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="MUX4_1_always.gyd"/>
+      <outfile xil_pn:name="MUX4_1_always.mfd"/>
+      <outfile xil_pn:name="MUX4_1_always.nga"/>
+      <outfile xil_pn:name="MUX4_1_always.pad"/>
+      <outfile xil_pn:name="MUX4_1_always.pnx"/>
+      <outfile xil_pn:name="MUX4_1_always.rpt"/>
+      <outfile xil_pn:name="MUX4_1_always.tim"/>
+      <outfile xil_pn:name="MUX4_1_always.tspec"/>
+      <outfile xil_pn:name="MUX4_1_always.vm6"/>
+      <outfile xil_pn:name="MUX4_1_always.xml"/>
+      <outfile xil_pn:name="MUX4_1_always_build.xml"/>
+      <outfile xil_pn:name="MUX4_1_always_html"/>
+      <outfile xil_pn:name="MUX4_1_always_pad.csv"/>
+    </transform>
+    <transform xil_pn:end_ts="1488267186" xil_pn:in_ck="-1221545429067317771" xil_pn:name="TRANEXT_crtProg_xc9500" xil_pn:prop_ck="-9204593535224376705" xil_pn:start_ts="1488267183">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="MUX4_1_always.jed"/>
+    </transform>
+    <transform xil_pn:end_ts="1488266916" xil_pn:in_ck="-1221545429067317771" xil_pn:name="TRAN_timRpt" xil_pn:prop_ck="111903974446" xil_pn:start_ts="1488266912">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+  </transforms>
+
+</generated_project>

@@ -1,0 +1,130 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: Exponentiation_Module_Datapath.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Exponentiation_Module_Datapath.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Exponentiation_Module_Datapath"
+Output Format                      : NGC
+Target Device                      : xc3s50-5-tq144
+
+---- Source Options
+Top Module Name                    : Exponentiation_Module_Datapath
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "Exponentiation_Module_Datapath.v" in library work
+ERROR:HDLCompilers:28 - "Exponentiation_Module_Datapath.v" line 56 'rstExponent' has not been declared
+ERROR:HDLCompilers:28 - "Exponentiation_Module_Datapath.v" line 58 'loadExponent' has not been declared
+ERROR:HDLCompilers:28 - "Exponentiation_Module_Datapath.v" line 65 'rstTerm' has not been declared
+ERROR:HDLCompilers:28 - "Exponentiation_Module_Datapath.v" line 67 'initTerm' has not been declared
+ERROR:HDLCompilers:28 - "Exponentiation_Module_Datapath.v" line 69 'loadTerm' has not been declared
+ERROR:HDLCompilers:28 - "Exponentiation_Module_Datapath.v" line 73 'selTableData' has not been declared
+ERROR:HDLCompilers:28 - "Exponentiation_Module_Datapath.v" line 75 'selTableData' has not been declared
+ERROR:HDLCompilers:28 - "Exponentiation_Module_Datapath.v" line 86 'rstResultRegs' has not been declared
+ERROR:HDLCompilers:28 - "Exponentiation_Module_Datapath.v" line 88 'initResultRegs' has not been declared
+ERROR:HDLCompilers:28 - "Exponentiation_Module_Datapath.v" line 93 'loadResultRegs' has not been declared
+ERROR:HDLCompilers:28 - "Exponentiation_Module_Datapath.v" line 99 'rstCounter' has not been declared
+ERROR:HDLCompilers:28 - "Exponentiation_Module_Datapath.v" line 101 'initCounter' has not been declared
+ERROR:HDLCompilers:28 - "Exponentiation_Module_Datapath.v" line 103 'incCounter' has not been declared
+Module <Exponentiation_Module_Datapath> compiled
+Analysis of file <"Exponentiation_Module_Datapath.prj"> failed.
+--> 
+
+Total memory usage is 228460 kilobytes
+
+Number of errors   :   13 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

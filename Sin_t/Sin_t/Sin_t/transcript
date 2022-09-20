@@ -1,0 +1,94 @@
+# Reading C:/modeltech64_10.1c/tcl/vsim/pref.tcl 
+# //  ModelSim SE-64 10.1c Jul 28 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do {Sin_t_tb.fdo} 
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module Sin_RAM
+# 
+# Top level modules:
+# 	Sin_RAM
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module Sin_t
+# 
+# Top level modules:
+# 	Sin_t
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module Sin_t_tb
+# 
+# Top level modules:
+# 	Sin_t_tb
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -lib work -voptargs=\"+acc\" -t 1ps work.Sin_t_tb glbl 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Error: (vopt-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: Sin_t_tb.v(1): Library xilinxcorelib_ver not found.
+# ** Warning: Sin_t_tb.v(1): (vopt-2669) Unable to find library 'xilinxcorelib_ver'.
+# 
+# ** Error: (vopt-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: Sin_t_tb.v(1): Library unisims_ver not found.
+# ** Warning: Sin_t_tb.v(1): (vopt-2669) Unable to find library 'unisims_ver'.
+# 
+# ** Error: (vopt-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: Sin_t_tb.v(1): Library unimacro_ver not found.
+# ** Warning: Sin_t_tb.v(1): (vopt-2669) Unable to find library 'unimacro_ver'.
+# 
+# ** Error: (vopt-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: Sin_t.v(1): Library xilinxcorelib_ver not found.
+# ** Warning: Sin_t.v(1): (vopt-2669) Unable to find library 'xilinxcorelib_ver'.
+# 
+# ** Error: (vopt-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: Sin_t.v(1): Library unisims_ver not found.
+# ** Warning: Sin_t.v(1): (vopt-2669) Unable to find library 'unisims_ver'.
+# 
+# ** Error: (vopt-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: Sin_t.v(1): Library unimacro_ver not found.
+# ** Warning: Sin_t.v(1): (vopt-2669) Unable to find library 'unimacro_ver'.
+# 
+# ** Error: (vopt-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: ipcore_dir/Sin_RAM.v(1): Library xilinxcorelib_ver not found.
+# ** Warning: ipcore_dir/Sin_RAM.v(1): (vopt-2669) Unable to find library 'xilinxcorelib_ver'.
+# 
+# ** Error: (vopt-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: ipcore_dir/Sin_RAM.v(1): Library unisims_ver not found.
+# ** Warning: ipcore_dir/Sin_RAM.v(1): (vopt-2669) Unable to find library 'unisims_ver'.
+# 
+# ** Error: (vopt-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: ipcore_dir/Sin_RAM.v(1): Library unimacro_ver not found.
+# ** Warning: ipcore_dir/Sin_RAM.v(1): (vopt-2669) Unable to find library 'unimacro_ver'.
+# 
+# ** Error: ipcore_dir/Sin_RAM.v(176): Module 'BLK_MEM_GEN_V7_3' is not defined.
+# Optimization failed
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./Sin_t_tb.fdo PAUSED at line 30
